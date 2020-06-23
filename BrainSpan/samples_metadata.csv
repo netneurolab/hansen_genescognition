@@ -1,0 +1,525 @@
+column_num,donor_id,donor_name,age,gender,structure_id,structure_acronym,structure_name,Age_Stage,Age_Epoch,Age_Period,MacroStructure,MacroStructure2,NT_Segment,Sensorifugal
+0,13058,H376.IIA.51,8 pcw,M,10268,Ocx,occipital neocortex,fetal,e0,p2,Occipital,Occipital,Tele,Association
+1,13058,H376.IIA.51,8 pcw,M,10291,M1C-S1C,primary motor-sensory cortex (samples),fetal,e0,p2,Somatomotor,Sensorimotor,Tele,Sensory
+2,13058,H376.IIA.51,8 pcw,M,10361,AMY,amygdaloid complex,fetal,e0,p2,Limbic,Limbic,Tele,Association
+3,13058,H376.IIA.51,8 pcw,M,10550,MGE,medial ganglionic eminence,fetal,e0,p2,GangEm,GangEm,Tele,Not_Cortex
+4,13058,H376.IIA.51,8 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e0,p2,Temporal,Temporal,Tele,Association
+5,13058,H376.IIA.51,8 pcw,M,10665,URL,upper (rostral) rhombic lip,fetal,e0,p2,Cerebellum,Cerebellum,Met,Not_Cortex
+6,13058,H376.IIA.51,8 pcw,M,10552,CGE,caudal ganglionic eminence,fetal,e0,p2,GangEm,GangEm,Tele,Not_Cortex
+7,13058,H376.IIA.51,8 pcw,M,10391,DTH,dorsal thalamus,fetal,e0,p2,Subcortex,Thalamus,Tele,Not_Cortex
+8,13058,H376.IIA.51,8 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e0,p2,Frontal,Frontal,Tele,Association
+9,13058,H376.IIA.51,8 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e0,p2,Frontal,Frontal,Tele,Association
+10,13058,H376.IIA.51,8 pcw,M,10194,OFC,orbital frontal cortex,fetal,e0,p2,Frontal,Frontal,Tele,Association
+11,13058,H376.IIA.51,8 pcw,M,10551,LGE,lateral ganglionic eminence,fetal,e0,p2,GangEm,GangEm,Tele,Not_Cortex
+12,13058,H376.IIA.51,8 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e0,p2,Temporal,Temporal,Tele,Association
+13,13058,H376.IIA.51,8 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e0,p2,Limbic,Limbic,Tele,Association
+14,13058,H376.IIA.51,8 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e0,p2,Frontal,Frontal,Tele,Association
+15,13058,H376.IIA.51,8 pcw,M,10208,PCx,parietal neocortex,fetal,e0,p2,Parietal,Parietal,Tele,Association
+16,12833,H376.IIA.50,9 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e0,p2,Frontal,Frontal,Tele,Association
+17,12833,H376.IIA.50,9 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e0,p2,Frontal,Frontal,Tele,Association
+18,12833,H376.IIA.50,9 pcw,M,10361,AMY,amygdaloid complex,fetal,e0,p2,Limbic,Limbic,Tele,Association
+19,12833,H376.IIA.50,9 pcw,M,10391,DTH,dorsal thalamus,fetal,e0,p2,Subcortex,Thalamus,Tele,Not_Cortex
+20,12833,H376.IIA.50,9 pcw,M,10665,URL,upper (rostral) rhombic lip,fetal,e0,p2,Cerebellum,Cerebellum,Met,Not_Cortex
+21,12833,H376.IIA.50,9 pcw,M,10551,LGE,lateral ganglionic eminence,fetal,e0,p2,GangEm,GangEm,Tele,Not_Cortex
+22,12833,H376.IIA.50,9 pcw,M,10291,M1C-S1C,primary motor-sensory cortex (samples),fetal,e0,p2,Somatomotor,Sensorimotor,Tele,Sensory
+23,12833,H376.IIA.50,9 pcw,M,10550,MGE,medial ganglionic eminence,fetal,e0,p2,GangEm,GangEm,Tele,Not_Cortex
+24,12833,H376.IIA.50,9 pcw,M,10235,TCx,temporal neocortex,fetal,e0,p2,Temporal,Temporal,Tele,Association
+25,12833,H376.IIA.50,9 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e0,p2,Limbic,Limbic,Tele,Association
+26,12833,H376.IIA.50,9 pcw,M,10268,Ocx,occipital neocortex,fetal,e0,p2,Occipital,Occipital,Tele,Association
+27,12833,H376.IIA.50,9 pcw,M,10552,CGE,caudal ganglionic eminence,fetal,e0,p2,GangEm,GangEm,Tele,Not_Cortex
+28,12833,H376.IIA.50,9 pcw,M,10194,OFC,orbital frontal cortex,fetal,e0,p2,Frontal,Frontal,Tele,Association
+29,12833,H376.IIA.50,9 pcw,M,10208,PCx,parietal neocortex,fetal,e0,p2,Parietal,Parietal,Tele,Association
+30,12835,H376.IIB.50,12 pcw,F,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p3,Limbic,Limbic,Tele,Association
+31,12835,H376.IIB.50,12 pcw,F,10391,DTH,dorsal thalamus,fetal,e1,p3,Subcortex,Thalamus,Tele,Not_Cortex
+32,12835,H376.IIB.50,12 pcw,F,10361,AMY,amygdaloid complex,fetal,e1,p3,Limbic,Limbic,Tele,Association
+33,12835,H376.IIB.50,12 pcw,F,10236,A1C,primary auditory cortex (core),fetal,e1,p3,Temporal,Temporal,Tele,Sensory
+34,12835,H376.IIB.50,12 pcw,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p3,Occipital,Occipital,Tele,Sensory
+35,12835,H376.IIB.50,12 pcw,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+36,12835,H376.IIB.50,12 pcw,F,10333,STR,striatum,fetal,e1,p3,Subcortex,Striatum,Tele,Not_Cortex
+37,12835,H376.IIB.50,12 pcw,F,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+38,12835,H376.IIB.50,12 pcw,F,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+39,12835,H376.IIB.50,12 pcw,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p3,Temporal,Temporal,Tele,Association
+40,12835,H376.IIB.50,12 pcw,F,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+41,12835,H376.IIB.50,12 pcw,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p3,Temporal,Temporal,Tele,Association
+42,12835,H376.IIB.50,12 pcw,F,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p3,Parietal,Parietal,Tele,Association
+43,12835,H376.IIB.50,12 pcw,F,10194,OFC,orbital frontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+44,12835,H376.IIB.50,12 pcw,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+45,12960,H376.IIB.51,12 pcw,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p3,Temporal,Temporal,Tele,Association
+46,12960,H376.IIB.51,12 pcw,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p3,Occipital,Occipital,Tele,Sensory
+47,12960,H376.IIB.51,12 pcw,F,10236,A1C,primary auditory cortex (core),fetal,e1,p3,Temporal,Temporal,Tele,Sensory
+48,12960,H376.IIB.51,12 pcw,F,10656,CB,cerebellum,fetal,e1,p3,Cerebellum,Cerebellum,Met,Not_Cortex
+49,12960,H376.IIB.51,12 pcw,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p3,Temporal,Temporal,Tele,Association
+50,12960,H376.IIB.51,12 pcw,F,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p3,Parietal,Parietal,Tele,Association
+51,12960,H376.IIB.51,12 pcw,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+52,12960,H376.IIB.51,12 pcw,F,10391,DTH,dorsal thalamus,fetal,e1,p3,Subcortex,Thalamus,Tele,Not_Cortex
+53,12960,H376.IIB.51,12 pcw,F,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p3,Limbic,Limbic,Tele,Association
+54,12960,H376.IIB.51,12 pcw,F,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+55,12960,H376.IIB.51,12 pcw,F,10194,OFC,orbital frontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+56,12960,H376.IIB.51,12 pcw,F,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+57,12960,H376.IIB.51,12 pcw,F,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+58,12960,H376.IIB.51,12 pcw,F,10361,AMY,amygdaloid complex,fetal,e1,p3,Limbic,Limbic,Tele,Association
+59,12960,H376.IIB.51,12 pcw,F,10333,STR,striatum,fetal,e1,p3,Subcortex,Striatum,Tele,Not_Cortex
+60,13060,H376.IIB.52,12 pcw,F,10361,AMY,amygdaloid complex,fetal,e1,p3,Limbic,Limbic,Tele,Association
+61,13060,H376.IIB.52,12 pcw,F,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+62,13060,H376.IIB.52,12 pcw,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p3,Temporal,Temporal,Tele,Association
+63,13060,H376.IIB.52,12 pcw,F,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+64,13060,H376.IIB.52,12 pcw,F,10333,STR,striatum,fetal,e1,p3,Subcortex,Striatum,Tele,Not_Cortex
+65,13060,H376.IIB.52,12 pcw,F,10657,CBC,cerebellar cortex,fetal,e1,p3,Cerebellum,Cerebellum,Met,Not_Cortex
+66,13060,H376.IIB.52,12 pcw,F,10391,DTH,dorsal thalamus,fetal,e1,p3,Subcortex,Thalamus,Tele,Not_Cortex
+67,13060,H376.IIB.52,12 pcw,F,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+68,13060,H376.IIB.52,12 pcw,F,10194,OFC,orbital frontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+69,13060,H376.IIB.52,12 pcw,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+70,13060,H376.IIB.52,12 pcw,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p3,Occipital,Occipital,Tele,Sensory
+71,13060,H376.IIB.52,12 pcw,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+72,13060,H376.IIB.52,12 pcw,F,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p3,Limbic,Limbic,Tele,Association
+73,13060,H376.IIB.52,12 pcw,F,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p3,Parietal,Parietal,Tele,Association
+74,13060,H376.IIB.52,12 pcw,F,10236,A1C,primary auditory cortex (core),fetal,e1,p3,Temporal,Temporal,Tele,Sensory
+75,12820,H376.IIIA.50,13 pcw,M,10333,STR,striatum,fetal,e1,p3,Subcortex,Striatum,Tele,Not_Cortex
+76,12820,H376.IIIA.50,13 pcw,M,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+77,12820,H376.IIIA.50,13 pcw,M,10361,AMY,amygdaloid complex,fetal,e1,p3,Limbic,Limbic,Tele,Association
+78,12820,H376.IIIA.50,13 pcw,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+79,12820,H376.IIIA.50,13 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p3,Occipital,Occipital,Tele,Sensory
+80,12820,H376.IIIA.50,13 pcw,M,10236,A1C,primary auditory cortex (core),fetal,e1,p3,Temporal,Temporal,Tele,Sensory
+81,12820,H376.IIIA.50,13 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p3,Limbic,Limbic,Tele,Association
+82,12820,H376.IIIA.50,13 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+83,12820,H376.IIIA.50,13 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+84,12820,H376.IIIA.50,13 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p3,Temporal,Temporal,Tele,Association
+85,12820,H376.IIIA.50,13 pcw,M,10194,OFC,orbital frontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+86,12820,H376.IIIA.50,13 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p3,Parietal,Parietal,Tele,Association
+87,12820,H376.IIIA.50,13 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+88,12820,H376.IIIA.50,13 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p3,Temporal,Temporal,Tele,Association
+89,12834,H376.IIIA.51,13 pcw,F,10333,STR,striatum,fetal,e1,p3,Subcortex,Striatum,Tele,Not_Cortex
+90,12834,H376.IIIA.51,13 pcw,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+91,12834,H376.IIIA.51,13 pcw,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p3,Occipital,Occipital,Tele,Sensory
+92,12834,H376.IIIA.51,13 pcw,F,10361,AMY,amygdaloid complex,fetal,e1,p3,Limbic,Limbic,Tele,Association
+93,12834,H376.IIIA.51,13 pcw,F,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p3,Parietal,Parietal,Tele,Association
+94,12834,H376.IIIA.51,13 pcw,F,10656,CB,cerebellum,fetal,e1,p3,Cerebellum,Cerebellum,Met,Not_Cortex
+95,12834,H376.IIIA.51,13 pcw,F,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+96,12834,H376.IIIA.51,13 pcw,F,10194,OFC,orbital frontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+97,12834,H376.IIIA.51,13 pcw,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p3,Temporal,Temporal,Tele,Association
+98,12834,H376.IIIA.51,13 pcw,F,10236,A1C,primary auditory cortex (core),fetal,e1,p3,Temporal,Temporal,Tele,Sensory
+99,12834,H376.IIIA.51,13 pcw,F,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p3,Limbic,Limbic,Tele,Association
+100,12834,H376.IIIA.51,13 pcw,F,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+101,12834,H376.IIIA.51,13 pcw,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p3,Temporal,Temporal,Tele,Association
+102,12834,H376.IIIA.51,13 pcw,F,10398,MD,mediodorsal nucleus of thalamus,fetal,e1,p3,Subcortex,Thalamus,Tele,Not_Cortex
+103,12834,H376.IIIA.51,13 pcw,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+104,12834,H376.IIIA.51,13 pcw,F,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+105,12888,H376.IIIA.52,13 pcw,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+106,12888,H376.IIIA.52,13 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+107,12888,H376.IIIA.52,13 pcw,M,10656,CB,cerebellum,fetal,e1,p3,Cerebellum,Cerebellum,Met,Not_Cortex
+108,12888,H376.IIIA.52,13 pcw,M,10361,AMY,amygdaloid complex,fetal,e1,p3,Limbic,Limbic,Tele,Association
+109,12888,H376.IIIA.52,13 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p3,Temporal,Temporal,Tele,Association
+110,12888,H376.IIIA.52,13 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p3,Limbic,Limbic,Tele,Association
+111,12888,H376.IIIA.52,13 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p3,Parietal,Parietal,Tele,Association
+112,12888,H376.IIIA.52,13 pcw,M,10236,A1C,primary auditory cortex (core),fetal,e1,p3,Temporal,Temporal,Tele,Sensory
+113,12888,H376.IIIA.52,13 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+114,12888,H376.IIIA.52,13 pcw,M,10333,STR,striatum,fetal,e1,p3,Subcortex,Striatum,Tele,Not_Cortex
+115,12888,H376.IIIA.52,13 pcw,M,10194,OFC,orbital frontal cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+116,12888,H376.IIIA.52,13 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p3,Frontal,Frontal,Tele,Association
+117,12888,H376.IIIA.52,13 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p3,Occipital,Occipital,Tele,Sensory
+118,12888,H376.IIIA.52,13 pcw,M,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e1,p3,Somatomotor,Sensorimotor,Tele,Sensory
+119,12287,H376.IIIB.50,16 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+120,12287,H376.IIIB.50,16 pcw,M,10194,OFC,orbital frontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+121,12287,H376.IIIB.50,16 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p4,Temporal,Temporal,Tele,Association
+122,12287,H376.IIIB.50,16 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+123,12287,H376.IIIB.50,16 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p4,Parietal,Parietal,Tele,Association
+124,12287,H376.IIIB.50,16 pcw,M,10236,A1C,primary auditory cortex (core),fetal,e1,p4,Temporal,Temporal,Tele,Sensory
+125,12287,H376.IIIB.50,16 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+126,12287,H376.IIIB.50,16 pcw,M,10333,STR,striatum,fetal,e1,p4,Subcortex,Striatum,Tele,Not_Cortex
+127,12287,H376.IIIB.50,16 pcw,M,10398,MD,mediodorsal nucleus of thalamus,fetal,e1,p4,Subcortex,Thalamus,Tele,Not_Cortex
+128,12287,H376.IIIB.50,16 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p4,Occipital,Occipital,Tele,Sensory
+129,12837,H376.IIIB.51,16 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+130,12837,H376.IIIB.51,16 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p4,Temporal,Temporal,Tele,Association
+131,12837,H376.IIIB.51,16 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p4,Parietal,Parietal,Tele,Association
+132,12837,H376.IIIB.51,16 pcw,M,10236,A1C,primary auditory cortex (core),fetal,e1,p4,Temporal,Temporal,Tele,Sensory
+133,12837,H376.IIIB.51,16 pcw,M,10398,MD,mediodorsal nucleus of thalamus,fetal,e1,p4,Subcortex,Thalamus,Tele,Not_Cortex
+134,12837,H376.IIIB.51,16 pcw,M,10361,AMY,amygdaloid complex,fetal,e1,p4,Limbic,Limbic,Tele,Association
+135,12837,H376.IIIB.51,16 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p4,Occipital,Occipital,Tele,Sensory
+136,12837,H376.IIIB.51,16 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p4,Temporal,Temporal,Tele,Association
+137,12837,H376.IIIB.51,16 pcw,M,10657,CBC,cerebellar cortex,fetal,e1,p4,Cerebellum,Cerebellum,Met,Not_Cortex
+138,12837,H376.IIIB.51,16 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p4,Limbic,Limbic,Tele,Association
+139,12837,H376.IIIB.51,16 pcw,M,10333,STR,striatum,fetal,e1,p4,Subcortex,Striatum,Tele,Not_Cortex
+140,12837,H376.IIIB.51,16 pcw,M,10194,OFC,orbital frontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+141,12837,H376.IIIB.51,16 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+142,12837,H376.IIIB.51,16 pcw,M,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e1,p4,Somatomotor,Sensorimotor,Tele,Sensory
+143,12837,H376.IIIB.51,16 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+144,12837,H376.IIIB.51,16 pcw,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e1,p4,Somatomotor,Sensorimotor,Tele,Sensory
+145,12879,H376.IIIB.52,16 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p4,Limbic,Limbic,Tele,Association
+146,12879,H376.IIIB.52,16 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e1,p4,Temporal,Temporal,Tele,Association
+147,12879,H376.IIIB.52,16 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+148,12879,H376.IIIB.52,16 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p4,Parietal,Parietal,Tele,Association
+149,12879,H376.IIIB.52,16 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p4,Temporal,Temporal,Tele,Association
+150,12879,H376.IIIB.52,16 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p4,Occipital,Occipital,Tele,Sensory
+151,12879,H376.IIIB.52,16 pcw,M,10398,MD,mediodorsal nucleus of thalamus,fetal,e1,p4,Subcortex,Thalamus,Tele,Not_Cortex
+152,12879,H376.IIIB.52,16 pcw,M,10333,STR,striatum,fetal,e1,p4,Subcortex,Striatum,Tele,Not_Cortex
+153,12879,H376.IIIB.52,16 pcw,M,10291,M1C-S1C,primary motor-sensory cortex (samples),fetal,e1,p4,Somatomotor,Sensorimotor,Tele,Sensory
+154,12879,H376.IIIB.52,16 pcw,M,10236,A1C,primary auditory cortex (core),fetal,e1,p4,Temporal,Temporal,Tele,Sensory
+155,12879,H376.IIIB.52,16 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+156,12879,H376.IIIB.52,16 pcw,M,10361,AMY,amygdaloid complex,fetal,e1,p4,Limbic,Limbic,Tele,Association
+157,12879,H376.IIIB.52,16 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p4,Frontal,Frontal,Tele,Association
+158,12880,H376.IIIB.53,17 pcw,F,10333,STR,striatum,fetal,e1,p5,Subcortex,Striatum,Tele,Not_Cortex
+159,12880,H376.IIIB.53,17 pcw,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p5,Temporal,Temporal,Tele,Association
+160,12880,H376.IIIB.53,17 pcw,F,10398,MD,mediodorsal nucleus of thalamus,fetal,e1,p5,Subcortex,Thalamus,Tele,Not_Cortex
+161,12880,H376.IIIB.53,17 pcw,F,10236,A1C,primary auditory cortex (core),fetal,e1,p5,Temporal,Temporal,Tele,Sensory
+162,12880,H376.IIIB.53,17 pcw,F,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p5,Limbic,Limbic,Tele,Association
+163,12880,H376.IIIB.53,17 pcw,F,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p5,Frontal,Frontal,Tele,Association
+164,12880,H376.IIIB.53,17 pcw,F,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p5,Frontal,Frontal,Tele,Association
+165,12880,H376.IIIB.53,17 pcw,F,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p5,Parietal,Parietal,Tele,Association
+166,12880,H376.IIIB.53,17 pcw,F,10291,M1C-S1C,primary motor-sensory cortex (samples),fetal,e1,p5,Somatomotor,Sensorimotor,Tele,Sensory
+167,12880,H376.IIIB.53,17 pcw,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p5,Occipital,Occipital,Tele,Sensory
+168,12880,H376.IIIB.53,17 pcw,F,10657,CBC,cerebellar cortex,fetal,e1,p5,Cerebellum,Cerebellum,Met,Not_Cortex
+169,12880,H376.IIIB.53,17 pcw,F,10194,OFC,orbital frontal cortex,fetal,e1,p5,Frontal,Frontal,Tele,Association
+170,12880,H376.IIIB.53,17 pcw,F,10361,AMY,amygdaloid complex,fetal,e1,p5,Limbic,Limbic,Tele,Association
+171,12880,H376.IIIB.53,17 pcw,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p5,Frontal,Frontal,Tele,Association
+172,12885,H376.IV.53,19 pcw,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e1,p5,Temporal,Temporal,Tele,Association
+173,12885,H376.IV.53,19 pcw,F,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e1,p5,Parietal,Parietal,Tele,Association
+174,12885,H376.IV.53,19 pcw,F,10291,M1C-S1C,primary motor-sensory cortex (samples),fetal,e1,p5,Somatomotor,Sensorimotor,Tele,Sensory
+175,12885,H376.IV.53,19 pcw,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e1,p5,Frontal,Frontal,Tele,Association
+176,12885,H376.IV.53,19 pcw,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e1,p5,Occipital,Occipital,Tele,Sensory
+177,12885,H376.IV.53,19 pcw,F,10294,HIP,hippocampus (hippocampal formation),fetal,e1,p5,Limbic,Limbic,Tele,Association
+178,12885,H376.IV.53,19 pcw,F,10236,A1C,primary auditory cortex (core),fetal,e1,p5,Temporal,Temporal,Tele,Sensory
+179,12885,H376.IV.53,19 pcw,F,10398,MD,mediodorsal nucleus of thalamus,fetal,e1,p5,Subcortex,Thalamus,Tele,Not_Cortex
+180,12885,H376.IV.53,19 pcw,F,10185,VFC,ventrolateral prefrontal cortex,fetal,e1,p5,Frontal,Frontal,Tele,Association
+181,12885,H376.IV.53,19 pcw,F,10333,STR,striatum,fetal,e1,p5,Subcortex,Striatum,Tele,Not_Cortex
+182,12885,H376.IV.53,19 pcw,F,10173,DFC,dorsolateral prefrontal cortex,fetal,e1,p5,Frontal,Frontal,Tele,Association
+183,12365,H376.IV.51,21 pcw,F,10657,CBC,cerebellar cortex,fetal,e2,p6,Cerebellum,Cerebellum,Met,Not_Cortex
+184,12365,H376.IV.51,21 pcw,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e2,p6,Temporal,Temporal,Tele,Association
+185,12886,H376.IV.54,21 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+186,12886,H376.IV.54,21 pcw,M,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e2,p6,Somatomotor,Sensorimotor,Tele,Sensory
+187,12886,H376.IV.54,21 pcw,M,10333,STR,striatum,fetal,e2,p6,Subcortex,Striatum,Tele,Not_Cortex
+188,12886,H376.IV.54,21 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e2,p6,Limbic,Limbic,Tele,Association
+189,12886,H376.IV.54,21 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e2,p6,Temporal,Temporal,Tele,Association
+190,12886,H376.IV.54,21 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e2,p6,Temporal,Temporal,Tele,Association
+191,12886,H376.IV.54,21 pcw,M,10361,AMY,amygdaloid complex,fetal,e2,p6,Limbic,Limbic,Tele,Association
+192,12886,H376.IV.54,21 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+193,12886,H376.IV.54,21 pcw,M,10194,OFC,orbital frontal cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+194,12886,H376.IV.54,21 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e2,p6,Occipital,Occipital,Tele,Sensory
+195,12886,H376.IV.54,21 pcw,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e2,p6,Somatomotor,Sensorimotor,Tele,Sensory
+196,12886,H376.IV.54,21 pcw,M,10657,CBC,cerebellar cortex,fetal,e2,p6,Cerebellum,Cerebellum,Met,Not_Cortex
+197,12886,H376.IV.54,21 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e2,p6,Parietal,Parietal,Tele,Association
+198,12886,H376.IV.54,21 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+199,12288,H376.IV.50,24 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e2,p6,Limbic,Limbic,Tele,Association
+200,12288,H376.IV.50,24 pcw,M,10361,AMY,amygdaloid complex,fetal,e2,p6,Limbic,Limbic,Tele,Association
+201,12288,H376.IV.50,24 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+202,12288,H376.IV.50,24 pcw,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e2,p6,Somatomotor,Sensorimotor,Tele,Sensory
+203,12288,H376.IV.50,24 pcw,M,10398,MD,mediodorsal nucleus of thalamus,fetal,e2,p6,Subcortex,Thalamus,Tele,Not_Cortex
+204,12288,H376.IV.50,24 pcw,M,10333,STR,striatum,fetal,e2,p6,Subcortex,Striatum,Tele,Not_Cortex
+205,12288,H376.IV.50,24 pcw,M,10236,A1C,primary auditory cortex (core),fetal,e2,p6,Temporal,Temporal,Tele,Sensory
+206,12288,H376.IV.50,24 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e2,p6,Parietal,Parietal,Tele,Association
+207,12288,H376.IV.50,24 pcw,M,10194,OFC,orbital frontal cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+208,12288,H376.IV.50,24 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e2,p6,Temporal,Temporal,Tele,Association
+209,12288,H376.IV.50,24 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e2,p6,Temporal,Temporal,Tele,Association
+210,12288,H376.IV.50,24 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+211,12288,H376.IV.50,24 pcw,M,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e2,p6,Somatomotor,Sensorimotor,Tele,Sensory
+212,12288,H376.IV.50,24 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e2,p6,Frontal,Frontal,Tele,Association
+213,12288,H376.IV.50,24 pcw,M,10657,CBC,cerebellar cortex,fetal,e2,p6,Cerebellum,Cerebellum,Met,Not_Cortex
+214,12288,H376.IV.50,24 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e2,p6,Occipital,Occipital,Tele,Sensory
+215,12948,H376.V.51,25 pcw,F,10236,A1C,primary auditory cortex (core),fetal,e2,p7,Temporal,Temporal,Tele,Sensory
+216,12949,H376.V.52,26 pcw,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e2,p7,Temporal,Temporal,Tele,Association
+217,12949,H376.V.52,26 pcw,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e2,p7,Occipital,Occipital,Tele,Sensory
+218,12949,H376.V.52,26 pcw,F,10173,DFC,dorsolateral prefrontal cortex,fetal,e2,p7,Frontal,Frontal,Tele,Association
+219,12295,H376.V.50,35 pcw,F,10657,CBC,cerebellar cortex,fetal,e2,p7,Cerebellum,Cerebellum,Met,Not_Cortex
+220,12295,H376.V.50,35 pcw,F,10185,VFC,ventrolateral prefrontal cortex,fetal,e2,p7,Frontal,Frontal,Tele,Association
+221,263195015,H376.V.53,37 pcw,M,10236,A1C,primary auditory cortex (core),fetal,e2,p7,Temporal,Temporal,Tele,Sensory
+222,263195015,H376.V.53,37 pcw,M,10194,OFC,orbital frontal cortex,fetal,e2,p7,Frontal,Frontal,Tele,Association
+223,263195015,H376.V.53,37 pcw,M,10361,AMY,amygdaloid complex,fetal,e2,p7,Limbic,Limbic,Tele,Association
+224,263195015,H376.V.53,37 pcw,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",fetal,e2,p7,Occipital,Occipital,Tele,Sensory
+225,263195015,H376.V.53,37 pcw,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,fetal,e2,p7,Frontal,Frontal,Tele,Association
+226,263195015,H376.V.53,37 pcw,M,10398,MD,mediodorsal nucleus of thalamus,fetal,e2,p7,Subcortex,Thalamus,Tele,Not_Cortex
+227,263195015,H376.V.53,37 pcw,M,10657,CBC,cerebellar cortex,fetal,e2,p7,Cerebellum,Cerebellum,Met,Not_Cortex
+228,263195015,H376.V.53,37 pcw,M,10333,STR,striatum,fetal,e2,p7,Subcortex,Striatum,Tele,Not_Cortex
+229,263195015,H376.V.53,37 pcw,M,10225,IPC,posteroventral (inferior) parietal cortex,fetal,e2,p7,Parietal,Parietal,Tele,Association
+230,263195015,H376.V.53,37 pcw,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",fetal,e2,p7,Temporal,Temporal,Tele,Association
+231,263195015,H376.V.53,37 pcw,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",fetal,e2,p7,Somatomotor,Sensorimotor,Tele,Sensory
+232,263195015,H376.V.53,37 pcw,M,10173,DFC,dorsolateral prefrontal cortex,fetal,e2,p7,Frontal,Frontal,Tele,Association
+233,263195015,H376.V.53,37 pcw,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),fetal,e2,p7,Temporal,Temporal,Tele,Association
+234,263195015,H376.V.53,37 pcw,M,10163,M1C,"primary motor cortex (area M1, area 4)",fetal,e2,p7,Somatomotor,Sensorimotor,Tele,Sensory
+235,263195015,H376.V.53,37 pcw,M,10185,VFC,ventrolateral prefrontal cortex,fetal,e2,p7,Frontal,Frontal,Tele,Association
+236,263195015,H376.V.53,37 pcw,M,10294,HIP,hippocampus (hippocampal formation),fetal,e2,p7,Limbic,Limbic,Tele,Association
+237,12296,H376.VI.50,4 mos,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),infant,e2,p8,Temporal,Temporal,Tele,Association
+238,12296,H376.VI.50,4 mos,M,10333,STR,striatum,infant,e2,p8,Subcortex,Striatum,Tele,Not_Cortex
+239,12296,H376.VI.50,4 mos,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",infant,e2,p8,Occipital,Occipital,Tele,Sensory
+240,12296,H376.VI.50,4 mos,M,10657,CBC,cerebellar cortex,infant,e2,p8,Cerebellum,Cerebellum,Met,Not_Cortex
+241,12296,H376.VI.50,4 mos,M,10294,HIP,hippocampus (hippocampal formation),infant,e2,p8,Limbic,Limbic,Tele,Association
+242,12296,H376.VI.50,4 mos,M,10398,MD,mediodorsal nucleus of thalamus,infant,e2,p8,Subcortex,Thalamus,Tele,Not_Cortex
+243,12296,H376.VI.50,4 mos,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",infant,e2,p8,Temporal,Temporal,Tele,Association
+244,12296,H376.VI.50,4 mos,M,10361,AMY,amygdaloid complex,infant,e2,p8,Limbic,Limbic,Tele,Association
+245,12296,H376.VI.50,4 mos,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+246,12889,H376.VI.51,4 mos,M,10163,M1C,"primary motor cortex (area M1, area 4)",infant,e2,p8,Somatomotor,Sensorimotor,Tele,Sensory
+247,12889,H376.VI.51,4 mos,M,10173,DFC,dorsolateral prefrontal cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+248,12889,H376.VI.51,4 mos,M,10194,OFC,orbital frontal cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+249,12889,H376.VI.51,4 mos,M,10236,A1C,primary auditory cortex (core),infant,e2,p8,Temporal,Temporal,Tele,Sensory
+250,12889,H376.VI.51,4 mos,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),infant,e2,p8,Temporal,Temporal,Tele,Association
+251,12889,H376.VI.51,4 mos,M,10185,VFC,ventrolateral prefrontal cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+252,12889,H376.VI.51,4 mos,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",infant,e2,p8,Temporal,Temporal,Tele,Association
+253,12889,H376.VI.51,4 mos,M,10361,AMY,amygdaloid complex,infant,e2,p8,Limbic,Limbic,Tele,Association
+254,12890,H376.VI.52,4 mos,M,10163,M1C,"primary motor cortex (area M1, area 4)",infant,e2,p8,Somatomotor,Sensorimotor,Tele,Sensory
+255,12890,H376.VI.52,4 mos,M,10398,MD,mediodorsal nucleus of thalamus,infant,e2,p8,Subcortex,Thalamus,Tele,Not_Cortex
+256,12890,H376.VI.52,4 mos,M,10194,OFC,orbital frontal cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+257,12890,H376.VI.52,4 mos,M,10333,STR,striatum,infant,e2,p8,Subcortex,Striatum,Tele,Not_Cortex
+258,12890,H376.VI.52,4 mos,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),infant,e2,p8,Temporal,Temporal,Tele,Association
+259,12890,H376.VI.52,4 mos,M,10236,A1C,primary auditory cortex (core),infant,e2,p8,Temporal,Temporal,Tele,Sensory
+260,12890,H376.VI.52,4 mos,M,10294,HIP,hippocampus (hippocampal formation),infant,e2,p8,Limbic,Limbic,Tele,Association
+261,12890,H376.VI.52,4 mos,M,10361,AMY,amygdaloid complex,infant,e2,p8,Limbic,Limbic,Tele,Association
+262,12890,H376.VI.52,4 mos,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+263,12890,H376.VI.52,4 mos,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",infant,e2,p8,Occipital,Occipital,Tele,Sensory
+264,12890,H376.VI.52,4 mos,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",infant,e2,p8,Temporal,Temporal,Tele,Association
+265,12890,H376.VI.52,4 mos,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",infant,e2,p8,Somatomotor,Sensorimotor,Tele,Sensory
+266,12890,H376.VI.52,4 mos,M,10225,IPC,posteroventral (inferior) parietal cortex,infant,e2,p8,Parietal,Parietal,Tele,Association
+267,12890,H376.VI.52,4 mos,M,10657,CBC,cerebellar cortex,infant,e2,p8,Cerebellum,Cerebellum,Met,Not_Cortex
+268,12890,H376.VI.52,4 mos,M,10173,DFC,dorsolateral prefrontal cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+269,12890,H376.VI.52,4 mos,M,10185,VFC,ventrolateral prefrontal cortex,infant,e2,p8,Frontal,Frontal,Tele,Association
+270,12977,H376.VII.51,10 mos,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",infant,e3,p9,Somatomotor,Sensorimotor,Tele,Sensory
+271,12977,H376.VII.51,10 mos,M,10225,IPC,posteroventral (inferior) parietal cortex,infant,e3,p9,Parietal,Parietal,Tele,Association
+272,12977,H376.VII.51,10 mos,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),infant,e3,p9,Temporal,Temporal,Tele,Association
+273,12977,H376.VII.51,10 mos,M,10173,DFC,dorsolateral prefrontal cortex,infant,e3,p9,Frontal,Frontal,Tele,Association
+274,12977,H376.VII.51,10 mos,M,10194,OFC,orbital frontal cortex,infant,e3,p9,Frontal,Frontal,Tele,Association
+275,12977,H376.VII.51,10 mos,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,infant,e3,p9,Frontal,Frontal,Tele,Association
+276,12977,H376.VII.51,10 mos,M,10657,CBC,cerebellar cortex,infant,e3,p9,Cerebellum,Cerebellum,Met,Not_Cortex
+277,12977,H376.VII.51,10 mos,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",infant,e3,p9,Temporal,Temporal,Tele,Association
+278,12977,H376.VII.51,10 mos,M,10398,MD,mediodorsal nucleus of thalamus,infant,e3,p9,Subcortex,Thalamus,Tele,Not_Cortex
+279,12977,H376.VII.51,10 mos,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",infant,e3,p9,Occipital,Occipital,Tele,Sensory
+280,12830,H376.VIII.51,1 yrs,F,10361,AMY,amygdaloid complex,infant,e3,p9,Limbic,Limbic,Tele,Association
+281,12830,H376.VIII.51,1 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",infant,e3,p9,Somatomotor,Sensorimotor,Tele,Sensory
+282,12830,H376.VIII.51,1 yrs,F,10173,DFC,dorsolateral prefrontal cortex,infant,e3,p9,Frontal,Frontal,Tele,Association
+283,12830,H376.VIII.51,1 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),infant,e3,p9,Temporal,Temporal,Tele,Association
+284,12830,H376.VIII.51,1 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",infant,e3,p9,Occipital,Occipital,Tele,Sensory
+285,12830,H376.VIII.51,1 yrs,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,infant,e3,p9,Frontal,Frontal,Tele,Association
+286,12830,H376.VIII.51,1 yrs,F,10194,OFC,orbital frontal cortex,infant,e3,p9,Frontal,Frontal,Tele,Association
+287,12830,H376.VIII.51,1 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",infant,e3,p9,Temporal,Temporal,Tele,Association
+288,12830,H376.VIII.51,1 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",infant,e3,p9,Somatomotor,Sensorimotor,Tele,Sensory
+289,12830,H376.VIII.51,1 yrs,F,10185,VFC,ventrolateral prefrontal cortex,infant,e3,p9,Frontal,Frontal,Tele,Association
+290,12830,H376.VIII.51,1 yrs,F,10657,CBC,cerebellar cortex,infant,e3,p9,Cerebellum,Cerebellum,Met,Not_Cortex
+291,12830,H376.VIII.51,1 yrs,F,10236,A1C,primary auditory cortex (core),infant,e3,p9,Temporal,Temporal,Tele,Sensory
+292,12830,H376.VIII.51,1 yrs,F,10398,MD,mediodorsal nucleus of thalamus,infant,e3,p9,Subcortex,Thalamus,Tele,Not_Cortex
+293,12830,H376.VIII.51,1 yrs,F,10294,HIP,hippocampus (hippocampal formation),infant,e3,p9,Limbic,Limbic,Tele,Association
+294,12830,H376.VIII.51,1 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,infant,e3,p9,Parietal,Parietal,Tele,Association
+295,12830,H376.VIII.51,1 yrs,F,10333,STR,striatum,infant,e3,p9,Subcortex,Striatum,Tele,Not_Cortex
+296,12979,H376.VIII.53,2 yrs,F,10185,VFC,ventrolateral prefrontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+297,12979,H376.VIII.53,2 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,child,e3,p10,Parietal,Parietal,Tele,Association
+298,12979,H376.VIII.53,2 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",child,e3,p10,Somatomotor,Sensorimotor,Tele,Sensory
+299,12979,H376.VIII.53,2 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",child,e3,p10,Temporal,Temporal,Tele,Association
+300,12979,H376.VIII.53,2 yrs,F,10398,MD,mediodorsal nucleus of thalamus,child,e3,p10,Subcortex,Thalamus,Tele,Not_Cortex
+301,12979,H376.VIII.53,2 yrs,F,10173,DFC,dorsolateral prefrontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+302,12979,H376.VIII.53,2 yrs,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+303,12979,H376.VIII.53,2 yrs,F,10657,CBC,cerebellar cortex,child,e3,p10,Cerebellum,Cerebellum,Met,Not_Cortex
+304,12979,H376.VIII.53,2 yrs,F,10294,HIP,hippocampus (hippocampal formation),child,e3,p10,Limbic,Limbic,Tele,Association
+305,12979,H376.VIII.53,2 yrs,F,10194,OFC,orbital frontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+306,12979,H376.VIII.53,2 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",child,e3,p10,Occipital,Occipital,Tele,Sensory
+307,12979,H376.VIII.53,2 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),child,e3,p10,Temporal,Temporal,Tele,Association
+308,12836,H376.VIII.52,3 yrs,F,10333,STR,striatum,child,e3,p10,Subcortex,Striatum,Tele,Not_Cortex
+309,12836,H376.VIII.52,3 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),child,e3,p10,Temporal,Temporal,Tele,Association
+310,12836,H376.VIII.52,3 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,child,e3,p10,Parietal,Parietal,Tele,Association
+311,12836,H376.VIII.52,3 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",child,e3,p10,Temporal,Temporal,Tele,Association
+312,12836,H376.VIII.52,3 yrs,F,10657,CBC,cerebellar cortex,child,e3,p10,Cerebellum,Cerebellum,Met,Not_Cortex
+313,12836,H376.VIII.52,3 yrs,F,10361,AMY,amygdaloid complex,child,e3,p10,Limbic,Limbic,Tele,Association
+314,12836,H376.VIII.52,3 yrs,F,10185,VFC,ventrolateral prefrontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+315,12836,H376.VIII.52,3 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",child,e3,p10,Somatomotor,Sensorimotor,Tele,Sensory
+316,12836,H376.VIII.52,3 yrs,F,10236,A1C,primary auditory cortex (core),child,e3,p10,Temporal,Temporal,Tele,Sensory
+317,12836,H376.VIII.52,3 yrs,F,10398,MD,mediodorsal nucleus of thalamus,child,e3,p10,Subcortex,Thalamus,Tele,Not_Cortex
+318,12836,H376.VIII.52,3 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",child,e3,p10,Occipital,Occipital,Tele,Sensory
+319,12980,H376.VIII.54,3 yrs,M,10194,OFC,orbital frontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+320,12980,H376.VIII.54,3 yrs,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+321,12980,H376.VIII.54,3 yrs,M,10163,M1C,"primary motor cortex (area M1, area 4)",child,e3,p10,Somatomotor,Sensorimotor,Tele,Sensory
+322,12980,H376.VIII.54,3 yrs,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",child,e3,p10,Somatomotor,Sensorimotor,Tele,Sensory
+323,12980,H376.VIII.54,3 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),child,e3,p10,Temporal,Temporal,Tele,Association
+324,12980,H376.VIII.54,3 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,child,e3,p10,Parietal,Parietal,Tele,Association
+325,12980,H376.VIII.54,3 yrs,M,10236,A1C,primary auditory cortex (core),child,e3,p10,Temporal,Temporal,Tele,Sensory
+326,12980,H376.VIII.54,3 yrs,M,10657,CBC,cerebellar cortex,child,e3,p10,Cerebellum,Cerebellum,Met,Not_Cortex
+327,12980,H376.VIII.54,3 yrs,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",child,e3,p10,Occipital,Occipital,Tele,Sensory
+328,12980,H376.VIII.54,3 yrs,M,10361,AMY,amygdaloid complex,child,e3,p10,Limbic,Limbic,Tele,Association
+329,12980,H376.VIII.54,3 yrs,M,10185,VFC,ventrolateral prefrontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+330,12980,H376.VIII.54,3 yrs,M,10173,DFC,dorsolateral prefrontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+331,12980,H376.VIII.54,3 yrs,M,10294,HIP,hippocampus (hippocampal formation),child,e3,p10,Limbic,Limbic,Tele,Association
+332,12980,H376.VIII.54,3 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",child,e3,p10,Temporal,Temporal,Tele,Association
+333,12298,H376.VIII.50,4 yrs,M,10361,AMY,amygdaloid complex,child,e3,p10,Limbic,Limbic,Tele,Association
+334,12298,H376.VIII.50,4 yrs,M,10333,STR,striatum,child,e3,p10,Subcortex,Striatum,Tele,Not_Cortex
+335,12298,H376.VIII.50,4 yrs,M,10185,VFC,ventrolateral prefrontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+336,12298,H376.VIII.50,4 yrs,M,10173,DFC,dorsolateral prefrontal cortex,child,e3,p10,Frontal,Frontal,Tele,Association
+337,12298,H376.VIII.50,4 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),child,e3,p10,Temporal,Temporal,Tele,Association
+338,12298,H376.VIII.50,4 yrs,M,10657,CBC,cerebellar cortex,child,e3,p10,Cerebellum,Cerebellum,Met,Not_Cortex
+339,12298,H376.VIII.50,4 yrs,M,10398,MD,mediodorsal nucleus of thalamus,child,e3,p10,Subcortex,Thalamus,Tele,Not_Cortex
+340,12841,H376.IX.51,8 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",child,e3,p11,Temporal,Temporal,Tele,Association
+341,12841,H376.IX.51,8 yrs,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",child,e3,p11,Somatomotor,Sensorimotor,Tele,Sensory
+342,12841,H376.IX.51,8 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,child,e3,p11,Parietal,Parietal,Tele,Association
+343,12841,H376.IX.51,8 yrs,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",child,e3,p11,Occipital,Occipital,Tele,Sensory
+344,12841,H376.IX.51,8 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),child,e3,p11,Temporal,Temporal,Tele,Association
+345,12841,H376.IX.51,8 yrs,M,10398,MD,mediodorsal nucleus of thalamus,child,e3,p11,Subcortex,Thalamus,Tele,Not_Cortex
+346,12841,H376.IX.51,8 yrs,M,10185,VFC,ventrolateral prefrontal cortex,child,e3,p11,Frontal,Frontal,Tele,Association
+347,12841,H376.IX.51,8 yrs,M,10294,HIP,hippocampus (hippocampal formation),child,e3,p11,Limbic,Limbic,Tele,Association
+348,12841,H376.IX.51,8 yrs,M,10361,AMY,amygdaloid complex,child,e3,p11,Limbic,Limbic,Tele,Association
+349,12841,H376.IX.51,8 yrs,M,10163,M1C,"primary motor cortex (area M1, area 4)",child,e3,p11,Somatomotor,Sensorimotor,Tele,Sensory
+350,12841,H376.IX.51,8 yrs,M,10657,CBC,cerebellar cortex,child,e3,p11,Cerebellum,Cerebellum,Met,Not_Cortex
+351,12841,H376.IX.51,8 yrs,M,10173,DFC,dorsolateral prefrontal cortex,child,e3,p11,Frontal,Frontal,Tele,Association
+352,12841,H376.IX.51,8 yrs,M,10333,STR,striatum,child,e3,p11,Subcortex,Striatum,Tele,Not_Cortex
+353,12841,H376.IX.51,8 yrs,M,10236,A1C,primary auditory cortex (core),child,e3,p11,Temporal,Temporal,Tele,Sensory
+354,12841,H376.IX.51,8 yrs,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,child,e3,p11,Frontal,Frontal,Tele,Association
+355,12841,H376.IX.51,8 yrs,M,10194,OFC,orbital frontal cortex,child,e3,p11,Frontal,Frontal,Tele,Association
+356,12981,H376.IX.52,8 yrs,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,child,e3,p11,Frontal,Frontal,Tele,Association
+357,12981,H376.IX.52,8 yrs,M,10657,CBC,cerebellar cortex,child,e3,p11,Cerebellum,Cerebellum,Met,Not_Cortex
+358,12981,H376.IX.52,8 yrs,M,10236,A1C,primary auditory cortex (core),child,e3,p11,Temporal,Temporal,Tele,Sensory
+359,12981,H376.IX.52,8 yrs,M,10185,VFC,ventrolateral prefrontal cortex,child,e3,p11,Frontal,Frontal,Tele,Association
+360,12981,H376.IX.52,8 yrs,M,10294,HIP,hippocampus (hippocampal formation),child,e3,p11,Limbic,Limbic,Tele,Association
+361,12981,H376.IX.52,8 yrs,M,10361,AMY,amygdaloid complex,child,e3,p11,Limbic,Limbic,Tele,Association
+362,12981,H376.IX.52,8 yrs,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",child,e3,p11,Occipital,Occipital,Tele,Sensory
+363,12981,H376.IX.52,8 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,child,e3,p11,Parietal,Parietal,Tele,Association
+364,12981,H376.IX.52,8 yrs,M,10173,DFC,dorsolateral prefrontal cortex,child,e3,p11,Frontal,Frontal,Tele,Association
+365,12981,H376.IX.52,8 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),child,e3,p11,Temporal,Temporal,Tele,Association
+366,12981,H376.IX.52,8 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",child,e3,p11,Temporal,Temporal,Tele,Association
+367,12289,H376.IX.50,11 yrs,F,10185,VFC,ventrolateral prefrontal cortex,adolescent,e3,p11,Frontal,Frontal,Tele,Association
+368,12289,H376.IX.50,11 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,adolescent,e3,p11,Parietal,Parietal,Tele,Association
+369,12289,H376.IX.50,11 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adolescent,e3,p11,Temporal,Temporal,Tele,Association
+370,12289,H376.IX.50,11 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adolescent,e3,p11,Temporal,Temporal,Tele,Association
+371,12289,H376.IX.50,11 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adolescent,e3,p11,Somatomotor,Sensorimotor,Tele,Sensory
+372,12289,H376.IX.50,11 yrs,F,10173,DFC,dorsolateral prefrontal cortex,adolescent,e3,p11,Frontal,Frontal,Tele,Association
+373,12289,H376.IX.50,11 yrs,F,10361,AMY,amygdaloid complex,adolescent,e3,p11,Limbic,Limbic,Tele,Association
+374,12289,H376.IX.50,11 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adolescent,e3,p11,Occipital,Occipital,Tele,Sensory
+375,12289,H376.IX.50,11 yrs,F,10657,CBC,cerebellar cortex,adolescent,e3,p11,Cerebellum,Cerebellum,Met,Not_Cortex
+376,12289,H376.IX.50,11 yrs,F,10236,A1C,primary auditory cortex (core),adolescent,e3,p11,Temporal,Temporal,Tele,Sensory
+377,12289,H376.IX.50,11 yrs,F,10294,HIP,hippocampus (hippocampal formation),adolescent,e3,p11,Limbic,Limbic,Tele,Association
+378,12289,H376.IX.50,11 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",adolescent,e3,p11,Somatomotor,Sensorimotor,Tele,Sensory
+379,12289,H376.IX.50,11 yrs,F,10194,OFC,orbital frontal cortex,adolescent,e3,p11,Frontal,Frontal,Tele,Association
+380,12289,H376.IX.50,11 yrs,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adolescent,e3,p11,Frontal,Frontal,Tele,Association
+381,12831,H376.X.51,13 yrs,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+382,12831,H376.X.51,13 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,adolescent,e3,p12,Parietal,Parietal,Tele,Association
+383,12831,H376.X.51,13 yrs,F,10185,VFC,ventrolateral prefrontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+384,12831,H376.X.51,13 yrs,F,10236,A1C,primary auditory cortex (core),adolescent,e3,p12,Temporal,Temporal,Tele,Sensory
+385,12831,H376.X.51,13 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adolescent,e3,p12,Temporal,Temporal,Tele,Association
+386,12831,H376.X.51,13 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adolescent,e3,p12,Temporal,Temporal,Tele,Association
+387,12831,H376.X.51,13 yrs,F,10657,CBC,cerebellar cortex,adolescent,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+388,12831,H376.X.51,13 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adolescent,e3,p12,Occipital,Occipital,Tele,Sensory
+389,12831,H376.X.51,13 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adolescent,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+390,12831,H376.X.51,13 yrs,F,10173,DFC,dorsolateral prefrontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+391,12831,H376.X.51,13 yrs,F,10194,OFC,orbital frontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+392,12831,H376.X.51,13 yrs,F,10398,MD,mediodorsal nucleus of thalamus,adolescent,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+393,12831,H376.X.51,13 yrs,F,10361,AMY,amygdaloid complex,adolescent,e3,p12,Limbic,Limbic,Tele,Association
+394,12831,H376.X.51,13 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",adolescent,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+395,12831,H376.X.51,13 yrs,F,10294,HIP,hippocampus (hippocampal formation),adolescent,e3,p12,Limbic,Limbic,Tele,Association
+396,12831,H376.X.51,13 yrs,F,10333,STR,striatum,adolescent,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+397,12299,H376.X.50,15 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,adolescent,e3,p12,Parietal,Parietal,Tele,Association
+398,12299,H376.X.50,15 yrs,M,10657,CBC,cerebellar cortex,adolescent,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+399,12299,H376.X.50,15 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adolescent,e3,p12,Temporal,Temporal,Tele,Association
+400,12299,H376.X.50,15 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adolescent,e3,p12,Temporal,Temporal,Tele,Association
+401,12299,H376.X.50,15 yrs,M,10361,AMY,amygdaloid complex,adolescent,e3,p12,Limbic,Limbic,Tele,Association
+402,12984,H376.X.53,18 yrs,M,10294,HIP,hippocampus (hippocampal formation),adolescent,e3,p12,Limbic,Limbic,Tele,Association
+403,12984,H376.X.53,18 yrs,M,10163,M1C,"primary motor cortex (area M1, area 4)",adolescent,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+404,12984,H376.X.53,18 yrs,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adolescent,e3,p12,Occipital,Occipital,Tele,Sensory
+405,12984,H376.X.53,18 yrs,M,10236,A1C,primary auditory cortex (core),adolescent,e3,p12,Temporal,Temporal,Tele,Sensory
+406,12984,H376.X.53,18 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adolescent,e3,p12,Temporal,Temporal,Tele,Association
+407,12984,H376.X.53,18 yrs,M,10185,VFC,ventrolateral prefrontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+408,12984,H376.X.53,18 yrs,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+409,12984,H376.X.53,18 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adolescent,e3,p12,Temporal,Temporal,Tele,Association
+410,12984,H376.X.53,18 yrs,M,10173,DFC,dorsolateral prefrontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+411,12984,H376.X.53,18 yrs,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adolescent,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+412,12984,H376.X.53,18 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,adolescent,e3,p12,Parietal,Parietal,Tele,Association
+413,12984,H376.X.53,18 yrs,M,10194,OFC,orbital frontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+414,12984,H376.X.53,18 yrs,M,10657,CBC,cerebellar cortex,adolescent,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+415,12832,H376.X.52,19 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adolescent,e3,p12,Temporal,Temporal,Tele,Association
+416,12832,H376.X.52,19 yrs,F,10657,CBC,cerebellar cortex,adolescent,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+417,12832,H376.X.52,19 yrs,F,10173,DFC,dorsolateral prefrontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+418,12832,H376.X.52,19 yrs,F,10361,AMY,amygdaloid complex,adolescent,e3,p12,Limbic,Limbic,Tele,Association
+419,12832,H376.X.52,19 yrs,F,10194,OFC,orbital frontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+420,12832,H376.X.52,19 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adolescent,e3,p12,Temporal,Temporal,Tele,Association
+421,12832,H376.X.52,19 yrs,F,10333,STR,striatum,adolescent,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+422,12832,H376.X.52,19 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adolescent,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+423,12832,H376.X.52,19 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",adolescent,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+424,12832,H376.X.52,19 yrs,F,10294,HIP,hippocampus (hippocampal formation),adolescent,e3,p12,Limbic,Limbic,Tele,Association
+425,12832,H376.X.52,19 yrs,F,10236,A1C,primary auditory cortex (core),adolescent,e3,p12,Temporal,Temporal,Tele,Sensory
+426,12832,H376.X.52,19 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adolescent,e3,p12,Occipital,Occipital,Tele,Sensory
+427,12832,H376.X.52,19 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,adolescent,e3,p12,Parietal,Parietal,Tele,Association
+428,12832,H376.X.52,19 yrs,F,10185,VFC,ventrolateral prefrontal cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+429,12832,H376.X.52,19 yrs,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adolescent,e3,p12,Frontal,Frontal,Tele,Association
+430,12832,H376.X.52,19 yrs,F,10398,MD,mediodorsal nucleus of thalamus,adolescent,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+431,13057,H376.XI.60,21 yrs,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+432,13057,H376.XI.60,21 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+433,13057,H376.XI.60,21 yrs,F,10236,A1C,primary auditory cortex (core),adult,e3,p12,Temporal,Temporal,Tele,Sensory
+434,13057,H376.XI.60,21 yrs,F,10173,DFC,dorsolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+435,13057,H376.XI.60,21 yrs,F,10361,AMY,amygdaloid complex,adult,e3,p12,Limbic,Limbic,Tele,Association
+436,13057,H376.XI.60,21 yrs,F,10398,MD,mediodorsal nucleus of thalamus,adult,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+437,13057,H376.XI.60,21 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adult,e3,p12,Occipital,Occipital,Tele,Sensory
+438,13057,H376.XI.60,21 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adult,e3,p12,Temporal,Temporal,Tele,Association
+439,13057,H376.XI.60,21 yrs,F,10185,VFC,ventrolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+440,13057,H376.XI.60,21 yrs,F,10657,CBC,cerebellar cortex,adult,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+441,13057,H376.XI.60,21 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+442,13057,H376.XI.60,21 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adult,e3,p12,Temporal,Temporal,Tele,Association
+443,13057,H376.XI.60,21 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,adult,e3,p12,Parietal,Parietal,Tele,Association
+444,13057,H376.XI.60,21 yrs,F,10294,HIP,hippocampus (hippocampal formation),adult,e3,p12,Limbic,Limbic,Tele,Association
+445,13057,H376.XI.60,21 yrs,F,10333,STR,striatum,adult,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+446,13057,H376.XI.60,21 yrs,F,10194,OFC,orbital frontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+447,12300,H376.XI.50,23 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adult,e3,p12,Temporal,Temporal,Tele,Association
+448,12300,H376.XI.50,23 yrs,M,10361,AMY,amygdaloid complex,adult,e3,p12,Limbic,Limbic,Tele,Association
+449,12300,H376.XI.50,23 yrs,M,10194,OFC,orbital frontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+450,12300,H376.XI.50,23 yrs,M,10398,MD,mediodorsal nucleus of thalamus,adult,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+451,12300,H376.XI.50,23 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adult,e3,p12,Temporal,Temporal,Tele,Association
+452,12300,H376.XI.50,23 yrs,M,10185,VFC,ventrolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+453,12300,H376.XI.50,23 yrs,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+454,12300,H376.XI.50,23 yrs,M,10163,M1C,"primary motor cortex (area M1, area 4)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+455,12300,H376.XI.50,23 yrs,M,10294,HIP,hippocampus (hippocampal formation),adult,e3,p12,Limbic,Limbic,Tele,Association
+456,12300,H376.XI.50,23 yrs,M,10657,CBC,cerebellar cortex,adult,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+457,12300,H376.XI.50,23 yrs,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+458,12300,H376.XI.50,23 yrs,M,10236,A1C,primary auditory cortex (core),adult,e3,p12,Temporal,Temporal,Tele,Sensory
+459,12300,H376.XI.50,23 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,adult,e3,p12,Parietal,Parietal,Tele,Association
+460,12300,H376.XI.50,23 yrs,M,10333,STR,striatum,adult,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+461,12290,H376.XI.52,30 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adult,e3,p12,Temporal,Temporal,Tele,Association
+462,12290,H376.XI.52,30 yrs,F,10333,STR,striatum,adult,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+463,12290,H376.XI.52,30 yrs,F,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+464,12290,H376.XI.52,30 yrs,F,10194,OFC,orbital frontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+465,12290,H376.XI.52,30 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,adult,e3,p12,Parietal,Parietal,Tele,Association
+466,12290,H376.XI.52,30 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adult,e3,p12,Temporal,Temporal,Tele,Association
+467,12290,H376.XI.52,30 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+468,12290,H376.XI.52,30 yrs,F,10398,MD,mediodorsal nucleus of thalamus,adult,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+469,12290,H376.XI.52,30 yrs,F,10294,HIP,hippocampus (hippocampal formation),adult,e3,p12,Limbic,Limbic,Tele,Association
+470,12290,H376.XI.52,30 yrs,F,10236,A1C,primary auditory cortex (core),adult,e3,p12,Temporal,Temporal,Tele,Sensory
+471,12290,H376.XI.52,30 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adult,e3,p12,Occipital,Occipital,Tele,Sensory
+472,12290,H376.XI.52,30 yrs,F,10173,DFC,dorsolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+473,12290,H376.XI.52,30 yrs,F,10361,AMY,amygdaloid complex,adult,e3,p12,Limbic,Limbic,Tele,Association
+474,12290,H376.XI.52,30 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+475,12290,H376.XI.52,30 yrs,F,10185,VFC,ventrolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+476,12290,H376.XI.52,30 yrs,F,10657,CBC,cerebellar cortex,adult,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+477,12302,H376.XI.53,36 yrs,M,10163,M1C,"primary motor cortex (area M1, area 4)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+478,12302,H376.XI.53,36 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adult,e3,p12,Temporal,Temporal,Tele,Association
+479,12302,H376.XI.53,36 yrs,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+480,12302,H376.XI.53,36 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adult,e3,p12,Temporal,Temporal,Tele,Association
+481,12302,H376.XI.53,36 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,adult,e3,p12,Parietal,Parietal,Tele,Association
+482,12302,H376.XI.53,36 yrs,M,10361,AMY,amygdaloid complex,adult,e3,p12,Limbic,Limbic,Tele,Association
+483,12302,H376.XI.53,36 yrs,M,10194,OFC,orbital frontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+484,12302,H376.XI.53,36 yrs,M,10185,VFC,ventrolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+485,12302,H376.XI.53,36 yrs,M,10173,DFC,dorsolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+486,12302,H376.XI.53,36 yrs,M,10236,A1C,primary auditory cortex (core),adult,e3,p12,Temporal,Temporal,Tele,Sensory
+487,12302,H376.XI.53,36 yrs,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adult,e3,p12,Occipital,Occipital,Tele,Sensory
+488,12302,H376.XI.53,36 yrs,M,10657,CBC,cerebellar cortex,adult,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+489,12302,H376.XI.53,36 yrs,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+490,12302,H376.XI.53,36 yrs,M,10294,HIP,hippocampus (hippocampal formation),adult,e3,p12,Limbic,Limbic,Tele,Association
+491,12302,H376.XI.53,36 yrs,M,10333,STR,striatum,adult,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+492,12302,H376.XI.53,36 yrs,M,10398,MD,mediodorsal nucleus of thalamus,adult,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+493,12303,H376.XI.54,37 yrs,M,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+494,12303,H376.XI.54,37 yrs,M,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adult,e3,p12,Occipital,Occipital,Tele,Sensory
+495,12303,H376.XI.54,37 yrs,M,10657,CBC,cerebellar cortex,adult,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+496,12303,H376.XI.54,37 yrs,M,10294,HIP,hippocampus (hippocampal formation),adult,e3,p12,Limbic,Limbic,Tele,Association
+497,12303,H376.XI.54,37 yrs,M,10225,IPC,posteroventral (inferior) parietal cortex,adult,e3,p12,Parietal,Parietal,Tele,Association
+498,12303,H376.XI.54,37 yrs,M,10398,MD,mediodorsal nucleus of thalamus,adult,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+499,12303,H376.XI.54,37 yrs,M,10173,DFC,dorsolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+500,12303,H376.XI.54,37 yrs,M,10185,VFC,ventrolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+501,12303,H376.XI.54,37 yrs,M,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adult,e3,p12,Temporal,Temporal,Tele,Association
+502,12303,H376.XI.54,37 yrs,M,10236,A1C,primary auditory cortex (core),adult,e3,p12,Temporal,Temporal,Tele,Sensory
+503,12303,H376.XI.54,37 yrs,M,10163,M1C,"primary motor cortex (area M1, area 4)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+504,12303,H376.XI.54,37 yrs,M,10194,OFC,orbital frontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+505,12303,H376.XI.54,37 yrs,M,10333,STR,striatum,adult,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+506,12303,H376.XI.54,37 yrs,M,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adult,e3,p12,Temporal,Temporal,Tele,Association
+507,12303,H376.XI.54,37 yrs,M,10361,AMY,amygdaloid complex,adult,e3,p12,Limbic,Limbic,Tele,Association
+508,12303,H376.XI.54,37 yrs,M,10278,MFC,anterior (rostral) cingulate (medial prefrontal) cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+509,12304,H376.XI.56,40 yrs,F,10173,DFC,dorsolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+510,12304,H376.XI.56,40 yrs,F,10252,ITC,"inferolateral temporal cortex (area TEv, area 20)",adult,e3,p12,Temporal,Temporal,Tele,Association
+511,12304,H376.XI.56,40 yrs,F,10185,VFC,ventrolateral prefrontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+512,12304,H376.XI.56,40 yrs,F,10398,MD,mediodorsal nucleus of thalamus,adult,e3,p12,Subcortex,Thalamus,Tele,Not_Cortex
+513,12304,H376.XI.56,40 yrs,F,10361,AMY,amygdaloid complex,adult,e3,p12,Limbic,Limbic,Tele,Association
+514,12304,H376.XI.56,40 yrs,F,10236,A1C,primary auditory cortex (core),adult,e3,p12,Temporal,Temporal,Tele,Sensory
+515,12304,H376.XI.56,40 yrs,F,10657,CBC,cerebellar cortex,adult,e3,p12,Cerebellum,Cerebellum,Met,Not_Cortex
+516,12304,H376.XI.56,40 yrs,F,10269,V1C,"primary visual cortex (striate cortex, area V1/17)",adult,e3,p12,Occipital,Occipital,Tele,Sensory
+517,12304,H376.XI.56,40 yrs,F,10194,OFC,orbital frontal cortex,adult,e3,p12,Frontal,Frontal,Tele,Association
+518,12304,H376.XI.56,40 yrs,F,10243,STC,posterior (caudal) superior temporal cortex (area 22c),adult,e3,p12,Temporal,Temporal,Tele,Association
+519,12304,H376.XI.56,40 yrs,F,10225,IPC,posteroventral (inferior) parietal cortex,adult,e3,p12,Parietal,Parietal,Tele,Association
+520,12304,H376.XI.56,40 yrs,F,10163,M1C,"primary motor cortex (area M1, area 4)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
+521,12304,H376.XI.56,40 yrs,F,10294,HIP,hippocampus (hippocampal formation),adult,e3,p12,Limbic,Limbic,Tele,Association
+522,12304,H376.XI.56,40 yrs,F,10333,STR,striatum,adult,e3,p12,Subcortex,Striatum,Tele,Not_Cortex
+523,12304,H376.XI.56,40 yrs,F,10209,S1C,"primary somatosensory cortex (area S1, areas 3,1,2)",adult,e3,p12,Somatomotor,Sensorimotor,Tele,Sensory
