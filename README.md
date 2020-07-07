@@ -22,7 +22,7 @@ The data in the folder is:
 ## Gene Set Enrichment Analysis
 
 The folder GO contains the script scpt_GO.m which performs gene set enrichment analysis based on two PLS-defined gene sets.
-Analyses were adapted from [this repository][https://github.com/benfulcher/GeneSetEnrichmentAnalysis] which also provides two necessary files which can be found [here][https://figshare.com/s/71fe1d9b2386ec05f421]. 
+Analyses were adapted from [this repository](https://github.com/benfulcher/GeneSetEnrichmentAnalysis) which also provides two necessary files which can be found [here](https://figshare.com/s/71fe1d9b2386ec05f421). 
 
 The data in the folder is:
 - gene_entrez_ids.csv : contains the entrezID corresponding to a list of genes
@@ -31,7 +31,7 @@ The data in the folder is:
 
 The folder CTD contains the script scpt_ctd.m which determines the ratio of genes that are preferentially expressed in seven different cell types.
 Significance is assessed against a null model of random gene sets.
-Cell type deconvolution comes from work discribed in [this paper][https://www.nature.com/articles/s41467-020-17051-5]. 
+Cell type deconvolution comes from work discribed in [this paper](https://www.nature.com/articles/s41467-020-17051-5). 
 
 The data in the folder is:
 - celltypes_PSP.csv : A list of gene names preferentially expressed in each of seven cell types.
@@ -39,7 +39,7 @@ The data in the folder is:
 ## Individual Differences in Behaviour
 
 The folder HCP contains the script scpt_hcp.m which uses cortical thickness and T1w/T2w maps from the Human Connectome Project (S1200 release) to relate the PLS-derived gene score pattern to individual differences in behaviour.
-Original data can be downloaded from [here][https://db.humanconnectome.org/data/projects/HCP_1200]. 
+Original data can be downloaded from [here](https://db.humanconnectome.org/data/projects/HCP_1200). 
 
 The data in the folder is: 
 - hcp_smyl_all_125.mat : T1w/T2w ratios for all 1096 subjects with full fMRI runs parcellated into 219 cortical regions
@@ -47,7 +47,7 @@ The data in the folder is:
 
 ## Molecular Signature across Development
 
-The folder BrainSpan contains the script scpt_brainspan.m which replicates results using gene expression estimates from the [BrainSpan][https://www.brainspan.org/static/download.html] database. 
+The folder BrainSpan contains the script scpt_brainspan.m which replicates results using gene expression estimates from the [BrainSpan](https://www.brainspan.org/static/download.html) database. 
 The script also tracks the gene expression-functional activation signature across human development.
 
 The data in the folder is:
