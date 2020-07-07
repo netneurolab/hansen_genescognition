@@ -3,6 +3,16 @@
 This repository contains scripts, functions, and data I used or created in support of my work-in-progress (soon to be preprint).
 All analyses were run on Matlab version 9.8.0.1359463 (R2020a) Update 1.
 
+Data and scripts are organized into five subfolders. The data that is used in multiple scripts is included in the root folder. This data includes:
+- [gene_expression.mat](gene_expression.mat) : node x gene matrix of normalized expression levels, created using [abagen](https://github.com/rmarkello/abagen).
+- label.mat : a gene x 1 list of gene names, which correspond to the genes in gene_expression.mat
+- genes.mat : a struct of the indices that refer to stable genes in terms of three resolutions (34, 57, and 111 left-hemisphere nodes).
+- neurosynth.mat : a node x term matrix of probabilistic measures that certain terms are pubslished alongside certain brain regions
+- nodes.mat : a struct of the indices that refer to the left hemisphere brain regions
+- result.mat : the original PLS result that is used in all other analyses
+- spins.mat : a node x 10000 matrix of rotated left hemisphere brain regions used in spin tests
+- terms.mat : a struct of term names for Neurosynth terms and BrainMap terms
+
 ## The Main Analysis
 
 The folder PLS contains the script scpt_genes_cog_pls.m which performs partial least squares analysis on gene expression and functional activation matrices.
