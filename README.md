@@ -59,6 +59,7 @@ The data in the folder is:
 
 The folder BrainSpan contains the script [scpt_brainspan.m](scpt_brainspan.m) which replicates results using gene expression estimates from the [BrainSpan](https://www.brainspan.org/static/download.html) database. 
 The script also tracks the gene expression-functional activation signature across human development.
+Many thanks to Jake Vogel for organizing the data for comparability with AHBA.
 
 The data in the folder is:
 - [gene_expression_AHBA_harmonized.csv](gene_expression_AHBA_harmonized.csv): gene by sample matrix of extimated gene expression levels. Only includes genes that are also reported in the original AHBA dataset.
