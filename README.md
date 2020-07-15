@@ -41,7 +41,7 @@ The data in the folder is:
 
 The folder CTD contains the script [scpt_ctd.m](scpt_ctd.m) which determines the ratio of genes that are preferentially expressed in seven different cell types.
 Significance is assessed against a null model of random gene sets.
-Cell type deconvolution comes from work discribed in [this paper](https://www.nature.com/articles/s41467-020-17051-5). 
+Cell type deconvolution comes from work discribed in [this paper](https://www.nature.com/articles/s41467-020-17051-5), and the data (alongside much more) can also be found at [Jakob Seidlitz's repo](https://github.com/jms290/PolySyn_MSNs)
 
 The data in the folder is:
 - [celltypes_PSP.csv](celltypes_PSP.csv) : A list of gene names preferentially expressed in each of seven cell types.
