@@ -49,7 +49,9 @@ The data in the folder is:
 ## Individual Differences in Behaviour
 
 The folder HCP contains the script [scpt_hcp.m](scpt_hcp.m) which uses cortical thickness and T1w/T2w maps from the Human Connectome Project (S1200 release) to relate the PLS-derived gene score pattern to individual differences in behaviour.
-Original data can be downloaded from [here](https://db.humanconnectome.org/data/projects/HCP_1200). 
+Original data can be downloaded from [here](https://db.humanconnectome.org/data/projects/HCP_1200).
+Note that the script is written for all 1096 subjects with full fMRI runs, but in reality only 417 unrelated subjects were used in analyses.
+Due to privacy policies, their subject indices are not included.
 
 The data in the folder is: 
 - [hcp_smyl_all_125.mat](hcp_smyl_all_125.mat): T1w/T2w ratios for all 1096 subjects with full fMRI runs parcellated into 219 cortical regions
