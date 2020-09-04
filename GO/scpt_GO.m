@@ -1,6 +1,6 @@
 % This script finds the biological processes with which two gene sets are
-% most involved. For each biological process (category), the mean bootstrap
-% ratio of genes is computed (called the category score). Significance is
+% most involved. For each biological process (category), the mean loading
+% of genes is computed (called the category score). Significance is
 % assessed against a null model of category scores. This null model is
 % constructed using the loadings of the same genes of interest,
 % where null loadings come from PLS analysis on a
@@ -95,16 +95,16 @@ for k = 1:length(categoryScores)           % for each category
     for j = 1:length(GOcategory)           % for each gene in the category
         
         % check if the gene is in the positive/negative gene set
-        % if so, save the bootstrap ratio
+        % if so, save the loading
         if ismember(GOcategory(j),gpos_ID)
-            category_pos = [category_pos; btsp(find(entrezIDs == GOcategory(j)))];
+            category_pos = [category_pos; gload(find(entrezIDs == GOcategory(j)))];
         elseif ismember(GOcategory(j),gneg_ID)
-            category_neg = [category_neg; btsp(find(entrezIDs == GOcategory(j)))];
+            category_neg = [category_neg; gload(find(entrezIDs == GOcategory(j)))];
         end
         
     end
     
-    % category score = mean bootstrap ratio of relevant genes in category
+    % category score = mean loading of relevant genes in category
     categoryScores(k,1) = mean(category_pos);
     categoryScores(k,2) = mean(category_neg);   
 end
@@ -135,7 +135,7 @@ for m = 1:nperm % for each permutation
         for j = 1:length(GOcategory)           % for each gene in the category
             
             % check if the gene is in the positive/negative gene set
-            % if so, save the bootstrap ratio
+            % if so, save the loading
             if ismember(GOcategory(j),gpos_ID)
                 category_pos = [category_pos; gload(find(entrezIDs == GOcategory(j)))];
             elseif ismember(GOcategory(j),gneg_ID)
@@ -143,7 +143,7 @@ for m = 1:nperm % for each permutation
             end
         end
         
-        % category score = mean bootstrap ratio of relevant genes in category        
+        % category score = mean loading of relevant genes in category        
         categoryScores_null(k,1,m) = mean(category_pos);
         categoryScores_null(k,2,m) = mean(category_neg);
     end
