@@ -35,7 +35,7 @@ The folder GO contains the script [scpt_GO.m](scpt_GO.m) which performs gene set
 Analyses were adapted from [this repository](https://github.com/benfulcher/GeneSetEnrichmentAnalysis) which also provides two necessary files which can be found [here](https://figshare.com/s/71fe1d9b2386ec05f421). 
 
 The data in the folder is:
-- [gene_entrez_ids.csv](gene_entrez_ids.csv): contains the entrezID corresponding to a list of genes
+- [gene_entrez_ids.csv](gene_entrez_ids.csv): contains the entrezID corresponding to a list of genes. This file is a cleaner version of the original probes.csv from the Allen Institute. It was created using [abagen](https://github.com/rmarkello/abagen).
 
 ## Cell-Type Deconvolution
 
