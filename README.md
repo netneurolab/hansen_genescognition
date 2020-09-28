@@ -1,6 +1,6 @@
 # Molecular signatures of cognition and affect
 
-This repository contains scripts, functions, and data I used or created in support of my work-in-progress (soon to be preprint).
+This repository contains scripts, functions, and data I used or created in support of my work, ["Molecular signatures of Cognition and Affect"](https://www.biorxiv.org/content/10.1101/2020.07.16.203026v1).
 All analyses were run on Matlab version 9.8.0.1359463 (R2020a) Update 1.
 
 Data and scripts are organized into five subfolders. The data that is used in multiple scripts is included in the root folder. This data includes:
@@ -35,7 +35,7 @@ The folder GO contains the script [scpt_GO.m](scpt_GO.m) which performs gene set
 Analyses were adapted from [this repository](https://github.com/benfulcher/GeneSetEnrichmentAnalysis) which also provides two necessary files which can be found [here](https://figshare.com/s/71fe1d9b2386ec05f421). 
 
 The data in the folder is:
-- [gene_entrez_ids.csv](gene_entrez_ids.csv): contains the entrezID corresponding to a list of genes
+- [gene_entrez_ids.csv](gene_entrez_ids.csv): contains the entrezID corresponding to a list of genes. This file is a cleaner version of the original probes.csv from the Allen Institute. It was created using [abagen](https://github.com/rmarkello/abagen).
 
 ## Cell-Type Deconvolution
 
