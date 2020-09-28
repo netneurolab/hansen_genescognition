@@ -7,10 +7,10 @@
 
 %% load
 
-load('genes.mat')   % gene idx
-load('label.mat')   % gene names
-load('result.mat')  % PLS result from scpt_genes_cog_pls.m
-load('mapping.mat') % mapping from 34 node parcellation to the 16 unique cortical regions included in BrainSpan
+load('genes.mat')    % gene idx
+load('label.mat')    % gene names
+load('result34.mat') % PLS result from scpt_genes_cog_pls.m on 34-node parcellation
+load('mapping.mat')  % mapping from 34 node parcellation to the 16 unique cortical regions included in BrainSpan
 
 
 % AHBA harmonized files have been organized to include only genes included
@@ -44,6 +44,7 @@ cortex_idx = setdiff([1:length(sensorifugal)],notcortex_idx);
 
 % remove noncortical indices
 brainspan(:,notcortex_idx) = [];
+brainspan = zscore(brainspan);
 
 %% remove unstable genes
 

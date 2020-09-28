@@ -11,7 +11,7 @@ celltypes = table2cell(readtable('celltypes_PSP.csv')); % load specific cell typ
 load('label.mat')         % gene names
 load('result.mat')        % PLS result from scpt_genes_cog_pls.m
 load('genes.mat')         % gene idx
-load('expression125.mat') % node x gene expression matrix
+load('gene_expression.mat') % node x gene expression matrix
 
 genenames = cellstr(celltypes(:,1));
 
