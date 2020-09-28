@@ -10,6 +10,7 @@ Data and scripts are organized into five subfolders. The data that is used in mu
 - [neurosynth.mat](neurosynth.mat): a node x term matrix of probabilistic measures that certain terms are pubslished alongside certain brain regions
 - [neurosynth.mat](nodes.mat): a struct of the indices that refer to the left hemisphere brain regions
 - [result.mat](result.mat): the original PLS result that is used in all other analyses
+- [result34.mat](result34.mat): the PLS result computed on the 34-node parcellation, used in [scpt_brainspan.m](scpt_brainspan.m).
 - [spins.mat](spins.mat): a node x 10000 matrix of rotated left hemisphere brain regions used in spin tests
 - [terms.mat](terms.mat): a struct of term names for Neurosynth terms and BrainMap terms
 
