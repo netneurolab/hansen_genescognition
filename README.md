@@ -16,7 +16,7 @@ Data and scripts are organized into five subfolders. The data that is used in mu
 
 ## The Main Analysis
 
-The folder PLS contains the script [scpt_genes_cog_pls.m](scpt_genes_cog_pls.m) which performs partial least squares analysis on gene expression and functional activation matrices.
+The folder PLS contains the script [scpt_genes_cog_pls.m](PLS/scpt_genes_cog_pls.m) which performs partial least squares analysis on gene expression and functional activation matrices.
 The significance of the latent variables is assessed against a permutation test that accounts for spatial autocorrelation.
 The correlation of PLS-derived scores is cross-validated using the function [fcn_crossval_pls_brain_obvs.m](fcn_crossval_pls_brain_obvs.m) which assigns nodes on a distance-based method to account for spatial autocorrelation.
 The terms that contribute most to the first latent variable are extrated.
@@ -32,7 +32,7 @@ The data in the folder is:
 
 ## Gene Set Enrichment Analysis
 
-The folder GO contains the script [scpt_GO.m](scpt_GO.m) which performs gene set enrichment analysis based on two PLS-defined gene sets.
+The folder GO contains the script [scpt_GO.m](GO/scpt_GO.m) which performs gene set enrichment analysis based on two PLS-defined gene sets.
 Analyses were adapted from [this repository](https://github.com/benfulcher/GeneSetEnrichmentAnalysis) which also provides two necessary files which can be found [here](https://figshare.com/s/71fe1d9b2386ec05f421). 
 
 The data in the folder is:
@@ -40,7 +40,7 @@ The data in the folder is:
 
 ## Cell-Type Deconvolution
 
-The folder CTD contains the script [scpt_ctd.m](scpt_ctd.m) which determines the ratio of genes that are preferentially expressed in seven different cell types.
+The folder CTD contains the script [scpt_ctd.m](CTD/scpt_ctd.m) which determines the ratio of genes that are preferentially expressed in seven different cell types.
 Significance is assessed against a null model of random gene sets.
 Cell type deconvolution comes from work discribed in [this paper](https://www.nature.com/articles/s41467-020-17051-5), and the data (alongside much more) can also be found at [Jakob Seidlitz's repo](https://github.com/jms290/PolySyn_MSNs)
 
@@ -49,7 +49,7 @@ The data in the folder is:
 
 ## Individual Differences in Behaviour
 
-The folder HCP contains the script [scpt_hcp.m](scpt_hcp.m) which uses cortical thickness and T1w/T2w maps from the Human Connectome Project (S1200 release) to relate the PLS-derived gene score pattern to individual differences in behaviour.
+The folder HCP contains the script [scpt_hcp.m](HCP/scpt_hcp.m) which uses cortical thickness and T1w/T2w maps from the Human Connectome Project (S1200 release) to relate the PLS-derived gene score pattern to individual differences in behaviour.
 Original data can be downloaded from [here](https://db.humanconnectome.org/data/projects/HCP_1200).
 Note that the script is written for all 1096 subjects with full fMRI runs, but in reality only 417 unrelated subjects were used in analyses.
 Due to privacy policies, their subject indices are not included.
@@ -60,7 +60,7 @@ The data in the folder is:
 
 ## Molecular Signature across Development
 
-The folder BrainSpan contains the script [scpt_brainspan.m](scpt_brainspan.m) which replicates results using gene expression estimates from the [BrainSpan](https://www.brainspan.org/static/download.html) database. 
+The folder BrainSpan contains the script [scpt_brainspan.m](BrainSpan/scpt_brainspan.m) which replicates results using gene expression estimates from the [BrainSpan](https://www.brainspan.org/static/download.html) database. 
 The script also tracks the gene expression-functional activation signature across human development.
 Many thanks to Jake Vogel for organizing the data for comparability with AHBA.
 
