@@ -27,7 +27,7 @@ function [rtrain,rtest] = fcn_crossval_pls_brain_obvs(x,y,nsplit,trainpct,lv,coo
     
     nnodes = size(x{1},1);
     
-    P = dist(coords'); % nnodes x nnodes matrix of Euclidean distances between every pair of nodes
+    P = squareform(pdist(coords)); % nnodes x nnodes matrix of Euclidean distances between every pair of nodes
 
     for k = 1:nsplit
         
