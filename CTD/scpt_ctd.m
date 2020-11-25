@@ -8,24 +8,19 @@
 %% load
 
 celltypes = table2cell(readtable('celltypes_PSP.csv')); % load specific cell type expression
-load('label.mat')         % gene names
-load('result.mat')        % PLS result from scpt_genes_cog_pls.m
-load('genes.mat')         % gene idx
+load('label.mat')           % gene names
+load('result.mat')          % PLS result from scpt_genes_cog_pls.m
+load('genes.mat')           % gene info
 load('gene_expression.mat') % node x gene expression matrix
+g = genes.scale125.stable;  % index of genes
 
 genenames = cellstr(celltypes(:,1));
 
 %% get index of genes with specific cell type expression
 
-for k = 1:length(genenames)                                           % for each gene with specific cell type expression 
-    if ismember(genenames(k),label)                                   % if gene overlaps with AHBA genes
-        celltypes(k,3) = num2cell(find(strcmp(label,genenames(k))));  % add index of gene
-    else 
-        celltypes(k,3) = {0};                                         % otherwise, add 0
-    end
-end
-bad_idx = cell2mat(celltypes(:,3))==0; % find indices of genes not in AHBA
-celltypes(bad_idx,:) = [];             % remove these genes
+[~,i,ii]  = intersect(genenames,label); % keep genes in AHBA
+celltypes = celltypes(i,:);
+celltypes(:,3) = num2cell(ii);
 
 % find index of genes in each cell type
 [C,~,i] = unique(cellstr(celltypes(:,2))); % index genes by which cell type (in C) they're expressed in
@@ -43,10 +38,7 @@ end
 % get gene sets
 % compute the loading of each gene as the correlation between the original
 % data and the gene scores
-gload = zeros(ngenes,1);
-for k = 1:ngenes
-    gload(k) = corr(expression125(:,g(k)),result.usc(:,1));
-end
+gload = corr(expression125(:,g),result.usc(:,1));
 
 ipos = find(gload > 0); % index of genes with positive loading
 ineg = find(gload < 0); % index of genes with negative loading
@@ -63,8 +55,8 @@ gneg_idx = Ineg(1:floor(threshold*length(gload_neg)));       % top 50% of genes 
 % find empirical cell type ratio
 ctd_ratios = zeros(ntypes,2);
 for k = 1:length(ctd_ratios)
-    ctd_ratios(k,1) = length(intersect(g(gpos_idx),cell2mat(ctd_idx{k})))/length(gpos_idx);
-    ctd_ratios(k,2) = length(intersect(g(gneg_idx),cell2mat(ctd_idx{k})))/length(gneg_idx);
+    ctd_ratios(k,1) = length(intersect(g(ipos(gpos_idx)),cell2mat(ctd_idx{k})))/length(gpos_idx);
+    ctd_ratios(k,2) = length(intersect(g(ineg(gneg_idx)),cell2mat(ctd_idx{k})))/length(gneg_idx);
 end
 
 %% null model from random gene set
@@ -107,9 +99,9 @@ o = [1,3,6,7,2,4,5]; % order in which cell types appear
 figure;
 
 subplot(1,2,1) % specific cell type expression for positive gene set
-scatter(1:ntypes,ctd_ratios(o,7,1),30,'filled')
+scatter(1:ntypes,ctd_ratios(o,1),30,'filled')
 hold on
-boxplot(squeeze(ctd_null(o,7,1,:))')
+boxplot(squeeze(ctd_null(o,1,:))')
 set(gca,'xticklabel',C(o))
 xtickangle(90)
 % ylim([min(ctd_ratios,[],'all') max(ctd_ratios,[],'all')])
@@ -117,9 +109,9 @@ ylim([-0.01 0.12])
 title('neg')
 
 subplot(1,2,2) % specific cell type expression for negative gene set
-scatter(1:ntypes,ctd_ratios(o,7,2),30,'filled')
+scatter(1:ntypes,ctd_ratios(o,2),30,'filled')
 hold on
-boxplot(squeeze(ctd_null(o,7,2,:))')
+boxplot(squeeze(ctd_null(o,2,:))')
 set(gca,'xticklabel',C(o))
 xtickangle(90)
 ylim([-0.01 0.12])
