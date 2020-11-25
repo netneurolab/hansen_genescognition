@@ -21,12 +21,12 @@ load('coords.mat')          % (x,y,z) coordinates for brain regions
 % shown here for neurosynth - replicated for brainmap
 
 % set up PLS analysis
-X = zscore(expression125);
-Y = zscore(cogact125);
-
 n = nodes.scale125.lefthem;
 g = genes.scale125.stable;
 t = terms.all; 
+
+X = zscore(expression125(:,g));
+Y = zscore(cogact125(n,t));
 
 nnodes = length(n);
 nterms = length(t);
@@ -36,9 +36,9 @@ ngenes = length(g);
 option.method = 3;
 option.num_boot = 10000;
 option.num_perm = 0;               % zero permutations because they will be run manually later to account for spatial autocorrelation
-option.stacked_behavdata = Y(n,t);
+option.stacked_behavdata = Y;
 
-exp{1} = X(:,g);
+exp{1} = X;
 
 result = pls_analysis(exp, nnodes, 1, option); % this is the PLS result that is used in all other analyses
 % save('result.mat','result')
@@ -53,9 +53,9 @@ s_spins = zeros(nterms,nspins); % singular values
 option.method = 3;              % set up PLS
 option.num_boot = 0;
 option.num_perm = 0;
-exp{1} = X(:,g);
+exp{1} = X;
 for k = 1:nspins    
-    option.stacked_behavdata = zscore(Y(n(spins(:,k)),:));  % permute neurosynth matrix
+    option.stacked_behavdata = Y(spins(:,k),:);  % permute neurosynth matrix
     
     datamatsvd=rri_xcor(option.stacked_behavdata,exp{1},0); % refer to pls_analysis.m
     [r,c] = size(datamatsvd);
@@ -86,7 +86,7 @@ end
 
 % cross-validate the correlation between gene and term scores using
 % distance-based set assignment
-[rtrain,rtest] = fcn_crossval_pls_brain_obvs(exp,zscore(Y(n,t)),100,0.75,1,coords125(116:226,:));
+[rtrain,rtest] = fcn_crossval_pls_brain_obvs(exp,Y,100,0.75,1,coords125(116:226,:));
 
 % visualize boxplots as distributions of the correlations computed using
 % the training and testing set
