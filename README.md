@@ -23,12 +23,12 @@ The terms that contribute most to the first latent variable are extrated.
 Finally, PLS-derived scores are distributed among three network classifications: the intrinsic (resting-state) networks, the Von Economo cytoarchitectonic classes, and the Mesulam classes of laminar differentiation.
 
 The data in the folder is:
-- [coords.mat](coords.mat): (x,y,z) coordinates of brain regions
-- [rsn.mat](rsn.mat): resting-state network affiliation of brain regions
-- [rsn_names.mat](rsn.mat): resting-state network names
-- [ve_names.mat](ve_names.mat): Von Economo network names
-- [voneconomo.mat](voneconomo.mat): Von Economo network affiliation of brain regions
-- [mesulam_mapping.csv](mesulam_mapping.csv): Mesulam class affiliation of brain regions
+- [coords.mat](PLS/coords.mat): (x,y,z) coordinates of brain regions
+- [rsn.mat](PLS/rsn.mat): resting-state network affiliation of brain regions
+- [rsn_names.mat](PLS/rsn_names.mat): resting-state network names
+- [ve_names.mat](PLS/ve_names.mat): Von Economo network names
+- [voneconomo.mat](PLS/voneconomo.mat): Von Economo network affiliation of brain regions
+- [mesulam_mapping.csv](PLS/mesulam_mapping.csv): Mesulam class affiliation of brain regions
 
 ## Gene Set Enrichment Analysis
 
@@ -36,7 +36,7 @@ The folder GO contains the script [scpt_GO.m](GO/scpt_GO.m) which performs gene 
 Analyses were adapted from [this repository](https://github.com/benfulcher/GeneSetEnrichmentAnalysis) which also provides two necessary files which can be found [here](https://figshare.com/s/71fe1d9b2386ec05f421). 
 
 The data in the folder is:
-- [gene_entrez_ids.csv](gene_entrez_ids.csv): contains the entrezID corresponding to a list of genes. This file is a cleaner version of the original probes.csv from the Allen Institute. It was created using [abagen](https://github.com/rmarkello/abagen).
+- [gene_entrez_ids.csv](GO/gene_entrez_ids.csv): contains the entrezID corresponding to a list of genes. This file is a cleaner version of the original probes.csv from the Allen Institute. It was created using [abagen](https://github.com/rmarkello/abagen).
 
 ## Cell-Type Deconvolution
 
@@ -45,7 +45,7 @@ Significance is assessed against a null model of random gene sets.
 Cell type deconvolution comes from work discribed in [this paper](https://www.nature.com/articles/s41467-020-17051-5), and the data (alongside much more) can also be found at [Jakob Seidlitz's repo](https://github.com/jms290/PolySyn_MSNs)
 
 The data in the folder is:
-- [celltypes_PSP.csv](celltypes_PSP.csv) : A list of gene names preferentially expressed in each of seven cell types.
+- [celltypes_PSP.csv](CTD/celltypes_PSP.csv) : A list of gene names preferentially expressed in each of seven cell types.
 
 ## Individual Differences in Behaviour
 
@@ -55,8 +55,8 @@ Note that the script is written for all 1096 subjects with full fMRI runs, but i
 Due to privacy policies, their subject indices are not included.
 
 The data in the folder is: 
-- [hcp_smyl_all_125.mat](hcp_smyl_all_125.mat): T1w/T2w ratios for all 1096 subjects with full fMRI runs parcellated into 219 cortical regions
-- [hcp_thi_all_125.mat](hcp_thi_all_125.mat): cortical thickness for all 1096 subjects with full fMRI runs parcellated into 219 cortical regions
+- [hcp_smyl_all_125.mat](HCP/hcp_smyl_all_125.mat): T1w/T2w ratios for all 1096 subjects with full fMRI runs parcellated into 219 cortical regions
+- [hcp_thi_all_125.mat](HCP/hcp_thi_all_125.mat): cortical thickness for all 1096 subjects with full fMRI runs parcellated into 219 cortical regions
 
 ## Molecular Signature across Development
 
@@ -65,8 +65,8 @@ The script also tracks the gene expression-functional activation signature acros
 Many thanks to Jake Vogel for organizing the data for comparability with AHBA.
 
 The data in the folder is:
-- [gene_expression_AHBA_harmonized.csv](gene_expression_AHBA_harmonized.csv): gene by sample matrix of extimated gene expression levels. Only includes genes that are also reported in the original AHBA dataset.
-- [gene_metadata_AHBA_harmonized.csv](gene_metadata_AHBA_harmonized.csv): includes information for each gene including gene name and entrez ID
-- [samples_metadata.csv](samples_metadata.csv): includes information for each sample, including age and brain region
-- [mapping.mat](mapping.mat) : an index-based map that links the 34 left hemisphere Desikan Killiany regions to the 16 cortical regions included in BrainSpan
+- [gene_expression_AHBA_harmonized.csv](BrainSpan/gene_expression_AHBA_harmonized.csv): gene by sample matrix of extimated gene expression levels. Only includes genes that are also reported in the original AHBA dataset.
+- [gene_metadata_AHBA_harmonized.csv](BrainSpan/gene_metadata_AHBA_harmonized.csv): includes information for each gene including gene name and entrez ID
+- [samples_metadata.csv](BrainSpan/samples_metadata.csv): includes information for each sample, including age and brain region
+- [mapping.mat](BrainSpan/mapping.mat) : an index-based map that links the 34 left hemisphere Desikan Killiany regions to the 16 cortical regions included in BrainSpan
 
