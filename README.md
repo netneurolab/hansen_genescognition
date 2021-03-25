@@ -1,6 +1,6 @@
 # Molecular signatures of cognition and affect
 
-This repository contains scripts, functions, and data I used or created in support of my work, ["Molecular signatures of Cognition and Affect"](https://www.biorxiv.org/content/10.1101/2020.07.16.203026v1).
+This repository contains scripts, functions, and data I used or created in support of my work, ["Mapping gene transcription and neurocognition across human neocortex"](https://www.nature.com/articles/s41562-021-01082-z). Find the preprint [here](https://www.biorxiv.org/content/10.1101/2020.07.16.203026v1) and the postprint [here](hansen2021postprint.pdf).
 All analyses were run on Matlab version 9.8.0.1359463 (R2020a) Update 1.
 
 Data and scripts are organized into five subfolders. The data that is used in multiple scripts is included in the root folder. This data includes:
