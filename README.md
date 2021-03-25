@@ -53,6 +53,7 @@ The folder HCP contains the script [scpt_hcp.m](HCP/scpt_hcp.m) which uses corti
 Original data can be downloaded from [here](https://db.humanconnectome.org/data/projects/HCP_1200).
 Note that the script is written for all 1096 subjects with full fMRI runs, but in reality only 417 unrelated subjects were used in analyses.
 Due to privacy policies, their subject indices are not included.
+This section got cut during the review process, so the results are only included in the preprint.
 
 The data in the folder is: 
 - [hcp_smyl_all_125.mat](HCP/hcp_smyl_all_125.mat): T1w/T2w ratios for all 1096 subjects with full fMRI runs parcellated into 219 cortical regions
