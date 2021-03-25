@@ -1,6 +1,8 @@
 % This script organizes and parcellates data from BrainSpan, then computes
 % estimated gene scores based on the gene weights computed in the original
-% analyses (see scpt_genes_cog_pls.m).
+% analyses (see scpt_genes_cog_pls.m). Note that the figure generation will
+% run into an error if you don't have cbrewer added to your path
+% (https://www.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab)
 
 % BrainSpan data can be downloaded in its original form from
 % https://www.brainspan.org/static/download.html
@@ -44,7 +46,6 @@ cortex_idx = setdiff([1:length(sensorifugal)],notcortex_idx);
 
 % remove noncortical indices
 brainspan(:,notcortex_idx) = [];
-brainspan = zscore(brainspan);
 
 %% remove unstable genes
 
@@ -130,11 +131,29 @@ end
 
 gscore = cell(length(M),1);
 
-for k = 1:length(M)                             % for each life stage
-    m = M{k};                                   % get gene expression matrix (genes x brain regions)
-    med = repmat(nanmedian(m,2), 1, size(m,2)); % fill missing data with median expression of gene across regions
-    m(isnan(m)) = med(isnan(m));
-    gscore{k} = m*result.u(bspan_gidx033);      % estimate gene score
+% for k = 1:length(M)                             % for each life stage
+%     m = M{k};                                   % get gene expression matrix (genes x brain regions)
+%     med = repmat(nanmedian(m,2), 1, size(m,2)); % fill missing data with median expression of gene across regions
+%     m(isnan(m)) = med(isnan(m));
+%     gscore{k} = m*result.u(bspan_gidx033);      % estimate gene score
+% end
+
+% as per reviewer's request, use only genes with complete data instead of
+% imputing with median expression (commented above, method for the preprint)
+missing_genes = []; 
+for k = 1:length(M) % for each life stage
+    m = M{k}; % get the gene expression matrix (genes x brain regions)
+    [~,i] = find(isnan(m)); % get 
+    missing_genes = union(missing_genes, i);
+end
+
+bspan_gidx033(missing_genes) = [];
+
+for k = 1:length(M)
+    m = M{k};
+    m(:,missing_genes) = [];
+    M{k} = m;
+    gscore{k} = m * result.u(bspan_gidx033);
 end
 
 % convert PLS-derived term scores into 16-node parcellation, averaging
@@ -150,22 +169,21 @@ end
 
 % get regions with available gene expression estimates across all life stages
 reg = intersect(regionsIncluded{1},[regionsIncluded{2};regionsIncluded{3};regionsIncluded{4};regionsIncluded{5}]);
-
-for k = 1:5                     % for each life stage
-    gscore{k} = gscore{k}(reg); % keep gene scores of regions with gene expression data across all life stages
-end
-gscore_mat = [gscore{1} gscore{2} gscore{3} gscore{4} gscore{5}]; % organize gene scores
+tmp = gscore;
+tmp{1} = tmp{1}(reg); % only need to change first life stage (16 regions)
+gscore_mat = [tmp{1} tmp{2} tmp{3} tmp{4} tmp{5}]; % organize gene scores
 
 %% visualize
 
-cm=cbrewer('qual', 'Paired', 16, 'PCHIP'); % colourmap
+% change the colourmap if you don't want to download cbrewer
+cm=cbrewer('qual', 'Paired', 16, 'PCHIP');
 
 % gene scores across development
 
 figure;
-for k = 1:size(gscore_mat,2)                                    % for each brain region
+for k = 1:length(gscore_mat)                                    % for each brain region
     hold on
-    plot(gscore_mat(:,k),'LineWidth',1.3,'Color',cm(reg(k),:))  % plot a curve of gene score in that brain region across all five life stages
+    plot(gscore_mat(k,:),'LineWidth',1.3,'Color',cm(reg(k),:))  % plot a curve of gene score in that brain region across all five life stages
 end
 legend(regions(reg),'Location','northwest');
 xticks(1:5)
