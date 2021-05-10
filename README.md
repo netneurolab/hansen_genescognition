@@ -1,6 +1,6 @@
 # Molecular signatures of cognition and affect
 
-This repository contains scripts, functions, and data I used or created in support of my work, ["Mapping gene transcription and neurocognition across human neocortex"](https://www.nature.com/articles/s41562-021-01082-z). Find the preprint [here](https://www.biorxiv.org/content/10.1101/2020.07.16.203026v1) and the postprint [here](hansen2021postprint.pdf).
+This repository contains scripts, functions, and data I used or created in support of my work, ["Mapping gene transcription and neurocognition across human neocortex"](https://www.nature.com/articles/s41562-021-01082-z). Find the preprint [here](https://www.biorxiv.org/content/10.1101/2020.07.16.203026v1), the postprint [here](hansen2021postprint.pdf), and the article [here](hansen2021nathumbehav.pdf).
 All analyses were run on Matlab version 9.8.0.1359463 (R2020a) Update 1.
 
 Data and scripts are organized into five subfolders. The data that is used in multiple scripts is included in the root folder. This data includes:
@@ -17,6 +17,7 @@ Data and scripts are organized into five subfolders. The data that is used in mu
 ## The Main Analysis
 
 The folder PLS contains the script [scpt_genes_cog_pls.m](PLS/scpt_genes_cog_pls.m) which performs partial least squares analysis on gene expression and functional activation matrices.
+It also contains the script [scpt_cca.m](PLS/scpt_cca.m) which performs canonical correlation analysis on gene expression and functional activation matrices, and compares the results to the PLS results.
 The significance of the latent variables is assessed against a permutation test that accounts for spatial autocorrelation.
 The correlation of PLS-derived scores is cross-validated using the function [fcn_crossval_pls_brain_obvs.m](fcn_crossval_pls_brain_obvs.m) which assigns nodes on a distance-based method to account for spatial autocorrelation.
 The terms that contribute most to the first latent variable are extrated.
@@ -43,6 +44,7 @@ The data in the folder is:
 The folder CTD contains the script [scpt_ctd.m](CTD/scpt_ctd.m) which determines the ratio of genes that are preferentially expressed in seven different cell types.
 Significance is assessed against a null model of random gene sets.
 Cell type deconvolution comes from work discribed in [this paper](https://www.nature.com/articles/s41467-020-17051-5), and the data (alongside much more) can also be found at [Jakob Seidlitz's repo](https://github.com/jms290/PolySyn_MSNs)
+The folder also contains the function [fcn_ctd.m](CTD/fcn_ctd.m) which was written after publication, but is easier to use so I've included it here.
 
 The data in the folder is:
 - [celltypes_PSP.csv](CTD/celltypes_PSP.csv) : A list of gene names preferentially expressed in each of seven cell types.
