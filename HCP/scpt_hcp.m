@@ -1,5 +1,7 @@
 % This script relates the PLS-derived score pattern to individual
 % differences in behaviour using the Human Connectome Project dataset. 
+% This section got cut in the review process, but I left it because it's
+% in the preprint.
 
 %% load
 

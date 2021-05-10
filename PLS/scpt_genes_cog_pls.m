@@ -6,6 +6,9 @@
 % are retained and scores are distributed among structural and functional
 % networks.
 
+% PLS code (pls_analysis.m) can be downloaded at
+% http://pls.rotman-baycrest.on.ca/source/ ("Latest PLS Applications")
+
 %% load
 
 load('gene_expression.mat') % node by gene expression matrix
