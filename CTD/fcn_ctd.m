@@ -4,7 +4,7 @@
 % I never actually used it in my project). It's up here because it might
 % be helpful to others.
 
-% input: 
+% input:
 %   GeneListSub: gene subset to do ctd (string with gene names)
 %   GeneListFull: all possible genes (string with gene names)
 %   nperm: number of permutations for null model
@@ -22,6 +22,7 @@ genenames = cellstr(celltypes(:,1));
 
 [~,i,~]  = intersect(genenames,GeneListFull); % keep genes in GeneListFull
 celltypes = celltypes(i,:);
+genenames_infull = cellstr(celltypes(:,1));
 
 [cellnames,~,i] = unique(cellstr(celltypes(:,2))); % index genes by which cell type they're expressed in
 
@@ -30,12 +31,12 @@ ntypes = length(cellnames);
 % get cell type deconvolution
 ctd = zeros(ntypes,1);
 for k = 1:ntypes
-    ctd(k) = length(intersect(GeneListSub,genenames(i==k)))/length(GeneListSub);
+    ctd(k) = length(intersect(GeneListSub,genenames_infull(i==k)))/length(GeneListSub);
 end
 
 % get null model
 ctd_null = zeros(ntypes,nperm);
-for k = 1:nperm 
+for k = 1:nperm
     y = datasample(1:length(GeneListFull),length(GeneListSub),'Replace',false);                 % get random gene set the size of the positive gene set
     for j = 1:ntypes                                                                            % for each cell type
         ctd_null(j,k) = length(intersect(GeneListFull(y),genenames(i==j)))/length(GeneListSub); % find ratio of genes expressed in cell type to all genes
