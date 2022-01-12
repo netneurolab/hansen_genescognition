@@ -22,7 +22,7 @@ genenames = cellstr(celltypes(:,1));
 
 [~,i,~]  = intersect(genenames,GeneListFull); % keep genes in GeneListFull
 celltypes = celltypes(i,:);
-genenames_infull = cellstr(celltypes(:,1))
+genenames_infull = cellstr(celltypes(:,1));
 
 [cellnames,~,i] = unique(cellstr(celltypes(:,2))); % index genes by which cell type they're expressed in
 
