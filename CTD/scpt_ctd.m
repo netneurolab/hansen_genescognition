@@ -18,9 +18,15 @@ genenames = cellstr(celltypes(:,1));
 
 %% get index of genes with specific cell type expression
 
-[~,i,ii]  = intersect(genenames,label); % keep genes in AHBA
-celltypes = celltypes(i,:);
-celltypes(:,3) = num2cell(ii);
+for k = 1:length(genenames)                                           % for each gene with specific cell type expression 
+    if ismember(genenames(k),label)                                   % if gene overlaps with AHBA genes
+        celltypes(k,3) = num2cell(find(strcmp(label,genenames(k))));  % add index of gene
+    else 
+        celltypes(k,3) = {0};                                         % otherwise, add 0
+    end
+end
+bad_idx = cell2mat(celltypes(:,3))==0; % find indices of genes not in AHBA
+celltypes(bad_idx,:) = [];             % remove these genes
 
 % find index of genes in each cell type
 [C,~,i] = unique(cellstr(celltypes(:,2))); % index genes by which cell type (in C) they're expressed in

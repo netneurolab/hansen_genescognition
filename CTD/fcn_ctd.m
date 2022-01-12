@@ -20,8 +20,15 @@ function [ctd, ctd_null, ctd_pvals, cellnames] = fcn_ctd(GeneListSub, GeneListFu
 celltypes = table2cell(readtable('celltypes_PSP.csv')); % load specific cell type expression
 genenames = cellstr(celltypes(:,1));
 
-[~,i,~]  = intersect(genenames,GeneListFull); % keep genes in GeneListFull
-celltypes = celltypes(i,:);
+for k = 1:length(genenames)                                           % for each gene with specific cell type expression 
+    if ismember(genenames(k),label)                                   % if gene overlaps with GeneListFull
+        celltypes(k,3) = num2cell(find(strcmp(label,genenames(k))));  % add index of gene
+    else 
+        celltypes(k,3) = {0};                                         % otherwise, add 0
+    end
+end
+bad_idx = cell2mat(celltypes(:,3))==0; % remove genes not in GeneListFull
+celltypes(bad_idx,:) = [];
 genenames_infull = cellstr(celltypes(:,1));
 
 [cellnames,~,i] = unique(cellstr(celltypes(:,2))); % index genes by which cell type they're expressed in
