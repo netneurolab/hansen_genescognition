@@ -7,14 +7,13 @@
 % input:
 %   GeneListSub: gene subset to do ctd (string with gene names)
 %   GeneListFull: all possible genes (string with gene names)
-%   GeneListStable: 'stable' gene subset of GeneListFull used to derive GeneListSub. If N/A, pass in same value as GeneListFull (string with gene names)
 %   nperm: number of permutations for null model
 
 % output:
 %   ctd: cell type deconvolution
 %   ctd_null: permuted null model
 
-function [ctd, ctd_null, ctd_pvals, cellnames] = fcn_ctd(GeneListSub, GeneListFull, GeneListStable, nperm)
+function [ctd, ctd_null, ctd_pvals, cellnames] = fcn_ctd(GeneListSub, GeneListFull, nperm)
 
 % get cell types
 
@@ -45,9 +44,9 @@ end
 % get null model
 ctd_null = zeros(ntypes,nperm);
 for k = 1:nperm
-    y = datasample(1:length(GeneListStable),length(GeneListSub),'Replace',false);                         % get random gene set the size of the positive gene set
+    y = datasample(1:length(GeneListFull),length(GeneListSub),'Replace',false);                         % get random gene set the size of the positive gene set
     for j = 1:ntypes                                                                                      % for each cell type
-        ctd_null(j,k) = length(intersect(GeneListStable(y),genenames_infull(i==j)))/length(GeneListSub);  % find ratio of genes expressed in cell type to all genes
+        ctd_null(j,k) = length(intersect(GeneListFull(y),genenames_infull(i==j)))/length(GeneListSub);  % find ratio of genes expressed in cell type to all genes
     end
 end
 
