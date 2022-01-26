@@ -20,11 +20,11 @@ function [ctd, ctd_null, ctd_pvals, cellnames] = fcn_ctd(GeneListSub, GeneListFu
 celltypes = table2cell(readtable('celltypes_PSP.csv')); % load specific cell type expression
 genenames = cellstr(celltypes(:,1));
 
-for k = 1:length(genenames)                                           % for each gene with specific cell type expression 
-    if ismember(genenames(k),label)                                   % if gene overlaps with GeneListFull
-        celltypes(k,3) = num2cell(find(strcmp(label,genenames(k))));  % add index of gene
-    else 
-        celltypes(k,3) = {0};                                         % otherwise, add 0
+for k = 1:length(genenames)                                                   % for each gene with specific cell type expression
+    if ismember(genenames(k),GeneListFull)                                    % if gene overlaps with GeneListFull
+        celltypes(k,3) = num2cell(find(strcmp(GeneListFull,genenames(k))));   % add index of gene
+    else
+        celltypes(k,3) = {0};                                                 % otherwise, add 0
     end
 end
 bad_idx = cell2mat(celltypes(:,3))==0; % remove genes not in GeneListFull
@@ -44,16 +44,16 @@ end
 % get null model
 ctd_null = zeros(ntypes,nperm);
 for k = 1:nperm
-    y = datasample(1:length(GeneListFull),length(GeneListSub),'Replace',false);                 % get random gene set the size of the positive gene set
-    for j = 1:ntypes                                                                            % for each cell type
-        ctd_null(j,k) = length(intersect(GeneListFull(y),genenames(i==j)))/length(GeneListSub); % find ratio of genes expressed in cell type to all genes
+    y = datasample(1:length(GeneListFull),length(GeneListSub),'Replace',false);                         % get random gene set the size of the positive gene set
+    for j = 1:ntypes                                                                                      % for each cell type
+        ctd_null(j,k) = length(intersect(GeneListFull(y),genenames_infull(i==j)))/length(GeneListSub);  % find ratio of genes expressed in cell type to all genes
     end
 end
 
 % get pvals
 ctd_pvals = zeros(ntypes,1);
 for k = 1:ntypes
-    ctd_pvals(k) = (1 + sum(abs((ctd_null(k,:) - mean(ctd_null(k,:)))) > abs((ctd(k) - mean(ctd_null(k,:)))))) / (nperm + 1);
+    ctd_pvals(k) = (1 + sum(abs(ctd_null(k,:) - mean(ctd_null(k,:))) >= abs(ctd(k) - mean(ctd_null(k,:))))) / (nperm + 1);
 end
 
 % plot
