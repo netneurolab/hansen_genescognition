@@ -23,7 +23,7 @@ The correlation of PLS-derived scores is cross-validated using the function [fcn
 The terms that contribute most to the first latent variable are extrated.
 Finally, PLS-derived scores are distributed among three network classifications: the intrinsic (resting-state) networks, the Von Economo cytoarchitectonic classes, and the Mesulam classes of laminar differentiation.
 
-The main PLS code (`pls_analysis.m`) can be found [here](http://pls.rotman-baycrest.on.ca/source/), under "Latest PLS Applications".
+The main PLS code (`pls_analysis.m`) can be found [here](https://www.rotman-baycrest.on.ca/index.php?section=345), under "PLSCMD".
 
 The data in the folder is:
 - [coords.mat](PLS/coords.mat): (x,y,z) coordinates of brain regions
